@@ -6,6 +6,7 @@ This repository is structured following into folders by `organization/standard/v
 
 * `iso/19135-2-2012`
 * `can/171.100-2009`
+* `fgp/hnap/2.3.1`
 
 Please check directory `README.md` files for modifications, notes, and namespace.
 
