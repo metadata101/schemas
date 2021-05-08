@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{%- capture directory %}
+`{{page.dir}}`:
+
+* [`Parent Directory`](..)
+{%- for item in site.pages -%}
+  {%- capture check %}{{page.dir}}{{ item.url | split: "/" | last}}/{% endcapture -%}
+  {%- if check == item.dir and item.name == "index.md" %}
+* [`{{ item.url | split: "/" | last}}/`]({{ item.url | split: "/" | last }}/)
+  {%- endif %}
+{%- endfor -%}
+{%- for file in site.static_files -%}
+  {%- capture check %}{{page.dir}}{{file.name}}{% endcapture -%}
+  {%- if check == file.path -%}
+    {%- if file.extname == ".xml" or file.extname == ".xsd" %}
+* [`{{ file.name }}`]({{ site.baseurl }}{{ file.path }})
+    {%- endif -%}
+  {%- endif %}
+{%- endfor -%}
+{% endcapture -%}
+
+{{ directory | markdownify }}
+{{ content }}
