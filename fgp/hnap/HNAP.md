@@ -1,6 +1,8 @@
 ---
 title: Guide to Harmonize ISO 19115:2003 / North American Profile Metadata For Government of Canada Geospatial Data
+nav_exclude: true
 ---
+
 # Guide to Harmonize ISO 19115:2003 / North American Profile Metadata For Government of Canada Geospatial Data
 
 **V2.3.1**
