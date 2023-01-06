@@ -1,44 +1,51 @@
-# Metadata 101 Schema Repository
+# Harmonized North American Profile (HNAP) 
 
-https://metadata101.github.io/schemas/ is a schema repository for Metadata 101.
+Register for HNAP schema:
 
-This repository is structured following into folders by `organization/standard/version`:
+* `2009a` - HNAP version
+* `2009a/2.3.1` - Federal Geospatial Portal guidelines and clarifications
+ 
+Additional content organised by `organization/standard/version`:
 
-* [iso/19135-2-2012](iso/19135-2-2012)
-* [can/171.100-2009](can/171.100-2009)
-* [fgp/hnap/2.3.1](fgp/hnap/2.3.1)
+* [ogc/gml/2.01](ogc/gml/2.01)
+* [iso/19115/2003](iso/19115/2003)
 
-Please check directory `README.md` files for modifications, notes, and namespace.
+Please see folder ``README.md`` for version, modifications and changelog.
 
-# Usage
+## CAN-CGSB=171.100-2009-a
 
-The schemas in this repository may be referenced directly, althrough no availability guarantee provided for github pages.
+The ``CAN-CGSB=171.100-2009-a`` standard provides clarifications and requirements to adapt 
+the [North American Profile of ISO 19115:2003](https://www.fgdc.gov/metadata/geospatial-metadata-standards#nap) for use in Canada with metadata recorded in our official languages.
 
-It is a best practice to download schemas for local use (to avoid contacting the github pages each time the schema is used).  Developers may wish to use `git submodule` to include this repository directly in their project.  
+Canadian standard number format:
 
-# GitHub Pages
+* `171` Geospatial subject area
+* `100` Harmonized North American Profile (HNAP)
+* `2009` Year of publication
+* `a` Revision
 
-This repository is published to github pages using [Jekyll](https://jekyllrb.com). See [Jekyll installation instructions](https://jekyllrb.com/docs/installation/) to set up a development environment:
+North American Profile of ISO 19115:2003 – Geographic information – Metadata (NAP – Metadata, version 1.2)
 
-1. Use bundler:
+## Federal Geospatial Portal Guidelines and Clarifications
 
-   ```
-   gem install bundler
-   ```
 
-2. Install ruby gems (such as `github-pages`):
-   ```
-   bundle
-   ```
-   
-3. Build and run locally:
-   
-   ```
-   bundle exec jekyll serve
-   ```
 
-4. Browser: http://localhost:4000/
+## nap.geogratis.gc.ca
 
-# Just the docs
+Refactoring of the decommissioned HNAP "geogratis" schema repository:
 
-Repository web pages use the [Just The Docs](https://pmarsceill.github.io/just-the-docs/) theme (MIT License).
+* http://nap.geogratis.gc.ca/
+  * [metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/](http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/)
+    * gco
+    * gmd
+    * gml
+    * gmx
+    * gsr
+    * gss
+    * gts
+    * nampm
+    * resources
+    * srv
+  * [metadata/tools/schemas/register/iso19135-2-2012/](http://nap.geogratis.gc.ca/metadata/tools/schemas/register/iso19135-2-2012/)
+    * [grg.xsd](http://nap.geogratis.gc.ca/metadata/tools/schemas/register/iso19135-2-2012/grg.xsd)
+    * [register.xsd](http://nap.geogratis.gc.ca/metadata/tools/schemas/register/iso19135-2-2012/register.xsd)
