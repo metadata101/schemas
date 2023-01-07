@@ -1,10 +1,8 @@
-CAN/CGSB-171.100-2009
-=====================
+# CAN/CGSB-171.100-2009
 
-North American Profile of ISO 19115:2003 — Geographic Information — Metadata (NAP — Metadata)
----------------------------------------------------------------------------------------------
+## North American Profile of ISO 19115:2003 — Geographic Information — Metadata (NAP — Metadata)
 
-1 Scope
+### 1 Scope
 
 The North American Profile of ISO 19115:2003 Geographic information – Metadata is intended to identify geospatial metadata that are needed for North American organizations to describe their geospatial data, including dataset and dataset series, and related Web services.
 
