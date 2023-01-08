@@ -1,13 +1,13 @@
-ISO(c) GMD schema ReadMe.txt
+ISO(c) GSS schema ReadMe.txt
 ------------------------------------------------------------------------------
 
-Geographic MetaData (GMD) extensible markup language
+Geographic Spatial Schema (GSS) extensible markup language
 
-GMD is a component of the XML Schema Implementation of Geographic
+GSS is a component of the XML Schema Implementation of Geographic
 Information Metadata documented in ISO/TS 19139:2007.
 
-GMD includes all the definitions of http://www.isotc211.org/2005/gmd
-namespace. The root document of this namespace is the file gmd.xsd.
+GSS includes all the definitions of http://www.isotc211.org/2005/gss
+namespace. The root document of this namespace is the file gss.xsd.
 
 The most current schemas are available at:
 http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
@@ -31,16 +31,22 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 							   
 	Note: ISO/TS 19139:2007 (published 2007-04-17) normatively reference
 	ISO 19136 which was	published 2007-08-23. The major change applied to
-	ISO 19136 is the change of the namespace URI. Previous release of GMD
+	ISO 19136 is the change of the namespace URI. Previous release of GSS
 	are not compliant with ISO/TS 19139:2007
 	
 	Validation: Schemas have been validated with XSV 2.10, Xerces J 2.7.1 and 
 	XML Spy 2009 (2009-03-02, IGN / France - Nicolas Lesage / Marcellin Prudham)
 							   
-2006-05-04 Marie-Pierre Escher & Nicolas Lesage 
-	* First official release of GMD
-	* GMD XML Schema files were generated from ISO/TC 211 UML class diagrams
+2006-05-04 Marie-Pierre Escher & Nicolas Lesage
+	* First official release of GSS
+	* GSS XML Schema files were generated from ISO/TC 211 UML class diagrams
   	  in accordance with ISO/TS 19139:2007. The XML Schema generator is a
-	  Rational Rose Plug-in developed by IGN France (http://www.ign.fr).
+	  Rational Rose Plug-in developed by IGN France (nicolas.lesage@ign.fr).
 
-This has been addapted for NAP - Metadata on 2013-02-22
+-------------------------------------------------------------------------------
+
+2023-01-07 Jody Garnett
+    * geogratis migration changing schema locations and register folder structure
+
+2013-02-22
+    * This has been addapted for NAP - Metadata

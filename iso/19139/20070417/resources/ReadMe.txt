@@ -16,9 +16,12 @@ Schema Implementations defined in ISO/TS 19139-2. Those resources are:
 
 	Validation: XML Files have been validated with XML Spy 2010 Rel. 2 (MSXML 6.0)
 
-
 No history...
 
+-------------------------------------------------------------------------------
 
+2023-01-07 Jody Garnett
+    * geogratis migration changing schema locations and register folder structure
 
-This has been addapted for NAP - Metadata on 2013-02-22
+2013-02-22
+    * This has been addapted for NAP - Metadata

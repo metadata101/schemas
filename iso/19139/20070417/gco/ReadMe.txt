@@ -1,13 +1,13 @@
-ISO(c) GSS schema ReadMe.txt
+ISO(c) GCO schema ReadMe.txt
 ------------------------------------------------------------------------------
 
-Geographic Spatial Schema (GSS) extensible markup language
+Geographic COmmon (GCO) extensible markup language
 
-GSS is a component of the XML Schema Implementation of Geographic
+GCO is a component of the XML Schema Implementation of Geographic
 Information Metadata documented in ISO/TS 19139:2007.
 
-GSS includes all the definitions of http://www.isotc211.org/2005/gss
-namespace. The root document of this namespace is the file gss.xsd.
+GCO includes all the definitions of http://www.isotc211.org/2005/gco
+namespace. The root document of this namespace is the file gco.xsd.
 
 The most current schemas are available at:
 http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
@@ -18,6 +18,9 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 	* Update of readme.txt file and schema annotations
 	* Use of absolute schema locations of imported namespaces
 	* Simplification of the schema location of included XML Schemas
+	* Adoption of W3C Implementation of XLink:
+		- schemaLocation changed to: http://www.w3.org/1999/xlink.xsd
+		- xlink:simpleLink renamed xlink:simpleAttrs
 	* Addition of the version attribute to the schema element. The value of
 	  this attribute is expected to be the date of the last release of the
 	  XML schemas (e.g. 2012-07-13 for this release)
@@ -31,17 +34,22 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 							   
 	Note: ISO/TS 19139:2007 (published 2007-04-17) normatively reference
 	ISO 19136 which was	published 2007-08-23. The major change applied to
-	ISO 19136 is the change of the namespace URI. Previous release of GSS
+	ISO 19136 is the change of the namespace URI. Previous release of GCO
 	are not compliant with ISO/TS 19139:2007
 	
 	Validation: Schemas have been validated with XSV 2.10, Xerces J 2.7.1 and 
 	XML Spy 2009 (2009-03-02, IGN / France - Nicolas Lesage / Marcellin Prudham)
 							   
 2006-05-04 Marie-Pierre Escher & Nicolas Lesage
-	* First official release of GSS
-	* GSS XML Schema files were generated from ISO/TC 211 UML class diagrams
+	* First official release of GCO
+	* GCO XML Schema files were generated from ISO/TC 211 UML class diagrams
   	  in accordance with ISO/TS 19139:2007. The XML Schema generator is a
 	  Rational Rose Plug-in developed by IGN France (nicolas.lesage@ign.fr).
 
+-------------------------------------------------------------------------------
 
-This has been addapted for NAP - Metadata on 2013-02-22
+2023-01-07 Jody Garnett
+    * geogratis migration changing schema locations and register folder structure
+
+2013-02-22
+    * This has been addapted for NAP - Metadata

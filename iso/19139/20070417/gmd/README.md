@@ -12,8 +12,6 @@ b) replace
 with
    xmlns:gmd="http://www.isotc211.org/2005/gmd"
 
-
-
 -2- "coordinateOperations.xsd" :
 
 a) replace
