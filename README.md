@@ -28,8 +28,6 @@ North American Profile of ISO 19115:2003 – Geographic information – Metadata
 
 ## Federal Geospatial Portal Guidelines and Clarifications
 
-
-
 ## nap.geogratis.gc.ca
 
 Refactoring of the decommissioned HNAP "geogratis" schema repository:

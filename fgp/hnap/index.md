@@ -7,4 +7,4 @@ nav_order: 2
 
 This profile defines minimum mandatory metadata elements for Government of Canada geospatial datasets. In addition to the minimum mandatory elements of NAP, other ISO 19115:2003 metadata elements are considered mandatory.
 
-For more information see [guidelines and examples](HNAP.md).
+For more information see [guidelines and examples](../../hnap/2.3.1/HNAP.md).

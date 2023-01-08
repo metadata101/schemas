@@ -5,8 +5,8 @@
 		<xs:documentation>This file consists in the ISO19139 XML schema profile of the NAP-Metadata profile of  ISO19115:2003 == 04-03-2009  ====== </xs:documentation>
 	</xs:annotation>
 	<!-- ================================== Imports ================================== -->
-	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd"/>
-	<xs:import namespace="http://www.isotc211.org/2005/srv" schemaLocation="http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../iso/19139/20070417/gmd/gmd.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/srv" schemaLocation="../srv/srv.xsd"/>
 	<xs:include schemaLocation="napmCharacterString.xsd"/>
 	<!-- ########################################################################### -->
 </xs:schema>

@@ -45,6 +45,4 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 	* GMX XML Schema files were generated from ISO/TC 211 UML class diagrams
   	  in accordance with ISO/TS 19139:2007. The XML Schema generator is a
 	  Rational Rose Plug-in developed by IGN France (nicolas.lesage@ign.fr).
-
-
 This has been addapted for NAP - Metadata on 2013-02-22

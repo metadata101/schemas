@@ -15,10 +15,6 @@ Schema Implementations defined in ISO/TS 19139-2. Those resources are:
 	* Adoption of W3C Implementation of XLink:
 
 	Validation: XML Files have been validated with XML Spy 2010 Rel. 2 (MSXML 6.0)
-
-
 No history...
-
-
 
 This has been addapted for NAP - Metadata on 2013-02-22

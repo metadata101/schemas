@@ -24,4 +24,5 @@ No history...
     * geogratis migration changing schema locations and register folder structure
 
 2013-02-22
-    * This has been addapted for NAP - Metadata
+    * This has been adapted for NAP - Metadata
+    * Use of geogratis schema locations
