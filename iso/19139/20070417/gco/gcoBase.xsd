@@ -3,15 +3,14 @@
 	<!-- NAP - Metadata 2013-02-22 -->
 	<!-- ================================= Annotation ================================ -->
 	<xs:annotation>
-		<xs:documentation>Geographic COmmon (GCO) extensible markup language is a component of the XML Schema
-		Implementation of Geographic Information Metadata documented in ISO/TS 19139:2007. GCO includes all the
-		definitions of http://www.isotc211.org/2005/gco namespace. The root document of this namespace is the
-		file gco.xsd. This gcoBase.xsd schema provides: 1. tools to handle specific objects like "code lists"
-		and "record"; 2. Some XML types representing that do not follow the general encoding rules.</xs:documentation>
+		<xs:documentation>Geographic COmmon (GCO) extensible markup language is a component of the XML Schema Implementation of Geographic
+Information Metadata documented in ISO/TS 19139:2007. GCO includes all the definitions of http://www.isotc211.org/2005/gco namespace. The root document of this namespace is the file gco.xsd. This gcoBase.xsd schema provides:
+		1.  tools to handle specific objects like "code lists" and "record";
+		2. Some XML types representing that do not follow the general encoding rules.</xs:documentation>
 	</xs:annotation>
 	<!-- ================================== Imports ================================== -->
-	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
-	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19136_Schemas/gml.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="../../../../xlink/xlink.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="../../../../ogc/gml/3.2.1/gml.xsd"/>
 	<xs:include schemaLocation="gco.xsd"/>
 	<!-- ########################################################################### -->
 	<!-- ########################################################################### -->

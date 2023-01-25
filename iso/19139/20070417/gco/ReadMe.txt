@@ -10,7 +10,7 @@ GCO includes all the definitions of http://www.isotc211.org/2005/gco
 namespace. The root document of this namespace is the file gco.xsd.
 
 The most current schemas are available at:
-http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
+https://schemas.isotc211.org/schemas/19139/
 
 -------------------------------------------------------------------------------
 
@@ -29,17 +29,17 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 	Validation: Schemas have been validated with XML Spy 2010 Rel. 2 (MSXML 6.0)
 
 2009-03-16 Marcellin Prudham & Nicolas Lesage
-	* Change of GML namespace: http://www.opengis.net/gml (GML 3.2) => 
+	* Change of GML namespace: http://www.opengis.net/gml (GML 3.2) =>
 	                           http://www.opengis.net/gml/3.2 (GML 3.2.1=ISO 19136)
-							   
+
 	Note: ISO/TS 19139:2007 (published 2007-04-17) normatively reference
 	ISO 19136 which was	published 2007-08-23. The major change applied to
 	ISO 19136 is the change of the namespace URI. Previous release of GCO
 	are not compliant with ISO/TS 19139:2007
-	
-	Validation: Schemas have been validated with XSV 2.10, Xerces J 2.7.1 and 
+
+	Validation: Schemas have been validated with XSV 2.10, Xerces J 2.7.1 and
 	XML Spy 2009 (2009-03-02, IGN / France - Nicolas Lesage / Marcellin Prudham)
-							   
+
 2006-05-04 Marie-Pierre Escher & Nicolas Lesage
 	* First official release of GCO
 	* GCO XML Schema files were generated from ISO/TC 211 UML class diagrams
