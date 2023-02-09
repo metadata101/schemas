@@ -84,6 +84,15 @@ with
 <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../iso/19139/20070417/gmd/gmd.xsd"/>
 ```
 
+2013 nap.geogratis.gc.ca:
+```xml
+<import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd"/>
+```
+2023 schemas.metadata.geo.ca:
+```xml
+<import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../2009/gmd/gmd.xsd"/>
+```
+
 b) replace
 ```xml
 xmlns:gmd="http://www.isotc211.org/schemas/2005/gmd"
@@ -103,6 +112,16 @@ a) replace
 with
 ```xml
    <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../iso/19139/20070417/gmd/gmd.xsd"/>
+```
+
+2013 nap.geogratis.gc.ca:
+```xml
+   <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd"/>
+```
+
+2023 schemas.metadata.geo.ca:
+```xml
+   <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../2009/gmd/gmd.xsd"/>
 ```
 
 b) replace
