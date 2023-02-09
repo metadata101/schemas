@@ -2,13 +2,15 @@
 
 Register for HNAP schema:
 
-* `2009a` - HNAP version
-* `2009a/2.3.1` - Federal Geospatial Portal guidelines and clarifications
+* `2009/` - North American Profile of ISO 19139
+* `2009/napm/` - North American Profile
+* `2009/gmd/` - ISO 19139 Geographic MetaData - modified to reference OGC GML standard* 
+* `hnap/2.3.1` - Federal Geospatial Portal guidelines and clarifications
  
 Additional content organised by `organization/standard/version`:
 
-* [ogc/gml/2.01](ogc/gml/2.01)
-* [iso/19115/2003](iso/19115/2003)
+* [ogc/gml/2.01](ogc/gml/2.01) - coordinate operations and reference systems updated to reference North American Profile
+* [iso/19115/2003](iso/19135-2/2012) - procedures for item registration
 
 Please see folder ``README.md`` for version, modifications and changelog.
 
@@ -28,7 +30,17 @@ North American Profile of ISO 19115:2003 – Geographic information – Metadata
 
 ## Federal Geospatial Portal Guidelines and Clarifications
 
-## nap.geogratis.gc.ca
+[Guide to Harmonize ISO 19115:2003 / North American Profile Metadata For Government of Canada Geospatial Data](hnap/2.3.1/HNAP.md)
+
+## hnap.schemas.metadata.geo.ca
+
+* https://hnap.schemas.metadata.geo.ca
+  * 2009
+  * hnap
+  * ogc
+  * iso
+
+## nap.geogratis.gc.ca 
 
 Refactoring of the decommissioned HNAP "geogratis" schema repository:
 
