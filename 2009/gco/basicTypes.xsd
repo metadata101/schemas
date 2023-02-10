@@ -9,7 +9,7 @@
 		the file gco.xsd. This basicTypes.xsd schema implements concepts from the "basic types" package of ISO/TS 19103.</xs:documentation>
 	</xs:annotation>
 	<!-- ================================== Imports ================================== -->
-	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="../../../../ogc/gml/3.2.1/gml.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="../../ogc/gml/3.2.1/gml.xsd"/>
 	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
 	<xs:include schemaLocation="gco.xsd"/>
 	<xs:include schemaLocation="gcoBase.xsd"/>

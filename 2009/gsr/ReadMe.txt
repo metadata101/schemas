@@ -14,6 +14,9 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 
 -------------------------------------------------------------------------------
 
+2013-02-22
+	This has been addapted for NAP - Metadata
+
 2012-07-13 Nicolas Lesage on behalf of the ISO/TC 211 XML Maintenance Group
 	* Update of readme.txt file and schema annotations
 	* Use of absolute schema locations of imported namespaces
@@ -43,10 +46,3 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
   	  in accordance with ISO/TS 19139:2007. The XML Schema generator is a
 	  Rational Rose Plug-in developed by IGN France (http://www.ign.fr).
 
--------------------------------------------------------------------------------
-
-2023-01-07 Jody Garnett
-    * geogratis migration changing schema locations and register folder structure
-
-2013-02-22
-    * This has been addapted for NAP - Metadata
