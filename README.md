@@ -32,14 +32,21 @@ North American Profile of ISO 19115:2003 – Geographic information – Metadata
 
 [Guide to Harmonize ISO 19115:2003 / North American Profile Metadata For Government of Canada Geospatial Data](hnap/2.3.1/HNAP.md)
 
-## hnap.schemas.metadata.geo.ca
+## schemas.metadata.geo.ca
 
-* https://hnap.schemas.metadata.geo.ca
+* https://schemas.metadata.geo.ca
   * 2009
-  * hnap
-  * ogc
-  * iso
-
+    * gco
+    * gmd
+    * gmx
+    * gsr
+    * gss
+    * gts
+    * napm
+  * hnap/2.3.1
+  * iso/19135-2/2012
+  * ogc/gml/3.2.1
+ 
 ## nap.geogratis.gc.ca 
 
 Refactoring of the decommissioned HNAP "geogratis" schema repository:

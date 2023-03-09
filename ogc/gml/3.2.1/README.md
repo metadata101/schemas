@@ -88,7 +88,7 @@ with
 ```xml
 <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd"/>
 ```
-2023 schemas.metadata.geo.ca:
+2023 metadata.geo.ca:
 ```xml
 <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../2009/gmd/gmd.xsd"/>
 ```
@@ -119,7 +119,7 @@ with
    <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmd/gmd.xsd"/>
 ```
 
-2023 schemas.metadata.geo.ca:
+2023 metadata.geo.ca:
 ```xml
    <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="../../2009/gmd/gmd.xsd"/>
 ```
