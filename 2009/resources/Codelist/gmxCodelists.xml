@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
+
 CORRECTIONS referenced 2012-07-13 #01
 AUTHOR: XML Maintenance group - Nicolas Lesage
 PURPOSE: Use of absolute path in xsi:schemaLocation
@@ -16,6 +17,14 @@ DESCRIPTION:
 <gml:description>descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior</gml:description>
 has been replaced by:
 <gml:description>flexible enumeration useful for expressing a long list of values, can be extended</gml:description>
+
+CORRECTIONS referenced 2023-03-08 #01
+AUTHOR: Metadata 101 Community - Jody Garnett
+PURPOSE: Correct relative paths in xsi:schemaLocation
+DESCRIPTION:
+- ../gmx/gmx.xsd replaced by - ../../gmx/gmx.xsd
+- ../gco/gco.xsd replaced by - - ../../gco/gco.xsd
+- ../gml/3.2.1/gml.xsd replaced by - ../../../ogc/gml/3.2.1/gml.xsd
 
 CORRECTIONS referenced by 2008-09-11 #NN
 AUTHOR : IGN (France) contact: nicolas.lesage@ign.fr
