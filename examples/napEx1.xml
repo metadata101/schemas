@@ -1,1494 +1,1743 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<gmd:MD_Metadata xmlns="http://www.isotc211.org/schemas/2005/gmd"
-   xmlns:gmd="http://www.isotc211.org/schemas/2005/gmd"
-   xmlns:napm="http://www.geoconnections.org/nap/metadata/Tools/napXsd/napm"
-   xmlns:gco="http://www.isotc211.org/schemas/2005/gco"
-   xmlns:gts="http://www.isotc211.org/schemas/2005/gts"
-   xmlns:gss="http://www.isotc211.org/schemas/2005/gss"
-   xmlns:gsr="http://www.isotc211.org/schemas/2005/gsr"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:srv="http://www.isotc211.org/schemas/2005/srv"
-   xmlns:gml="http://www.opengis.net/gml"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.isotc211.org/schemas/2005/gmd ../2009/gmd/gmd.xsd http://www.isotc211.org/schemas/2005/srv ../2009/srv/srv.xsd http://www.geoconnections.org/nap/metadata/Tools/napXsd/napm ../2009/napm/napm.xsd">
-   <gmd:fileIdentifier>
-      <gco:CharacterString>40ffba40-e192-4cbd-9fdc-89bd664e136b</gco:CharacterString>
-   </gmd:fileIdentifier>
-   <gmd:language>
-      <gco:CharacterString>eng; CAN</gco:CharacterString>
-   </gmd:language>
-   <gmd:characterSet>
-      <gmd:MD_CharacterSetCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8</gmd:MD_CharacterSetCode>
-   </gmd:characterSet>
-   <gmd:hierarchyLevel>
-      <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108" codeListValue="RI_622">dataset</gmd:MD_ScopeCode>
-   </gmd:hierarchyLevel>
-   <gmd:contact>
-      <gmd:CI_ResponsibleParty>
-         <gmd:organisationName>
-            <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
-         </gmd:organisationName>
-         <gmd:positionName>
-            <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
-         </gmd:positionName>
-         <gmd:contactInfo>
-            <gmd:CI_Contact>
-               <gmd:phone>
-                  <gmd:CI_Telephone>
-                     <gmd:voice>
-                        <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                     </gmd:voice>
-                     <gmd:facsimile>
-                        <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                     </gmd:facsimile>
-                  </gmd:CI_Telephone>
-               </gmd:phone>
-               <gmd:address>
-                  <gmd:CI_Address>
-                     <gmd:deliveryPoint>
-                        <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                     </gmd:deliveryPoint>
-                     <gmd:city>
-                        <gco:CharacterString>Peterborough</gco:CharacterString>
-                     </gmd:city>
-                     <gmd:administrativeArea>
-                        <gco:CharacterString>Ontario</gco:CharacterString>
-                     </gmd:administrativeArea>
-                     <gmd:postalCode>
-                        <gco:CharacterString>K9J 8M5</gco:CharacterString>
-                     </gmd:postalCode>
-                     <gmd:country>
-                        <gco:CharacterString>Canada</gco:CharacterString>
-                     </gmd:country>
-                     <gmd:electronicMailAddress>
-                        <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                     </gmd:electronicMailAddress>
-                  </gmd:CI_Address>
-               </gmd:address>
-            </gmd:CI_Contact>
-         </gmd:contactInfo>
-         <gmd:role>
-            <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-         </gmd:role>
-      </gmd:CI_ResponsibleParty>
-   </gmd:contact>
-   <gmd:dateStamp>
-      <gco:Date>2006-06-30</gco:Date>
-   </gmd:dateStamp>
-   <gmd:metadataStandardName>
-      <gco:CharacterString>North American Profile of ISO19115:2003 - Geographic information - Metadata</gco:CharacterString>
-   </gmd:metadataStandardName>
-   <gmd:metadataStandardVersion>
-      <gco:CharacterString>CAN/CGSB-171.100-2009</gco:CharacterString>
-   </gmd:metadataStandardVersion>
-   <gmd:dataSetURI>
-      <gco:CharacterString>http://lioapp.lrc.gov.on.ca/edwin/EDWINCGI.exe?IHID=260&#38;AgencyID=1&#38;Theme=All_Themes; download</gco:CharacterString>
-   </gmd:dataSetURI>
-   <gmd:locale>
-      <gmd:PT_Locale id="locale_eng_CAN">
-         <gmd:languageCode>
-            <gmd:LanguageCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_116" codeListValue="eng">English</gmd:LanguageCode>
-         </gmd:languageCode>
-         <gmd:country>
-            <gmd:Country codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_117" codeListValue="CAN">Canada</gmd:Country>
-         </gmd:country>
-         <gmd:characterEncoding>
-            <gmd:MD_CharacterSetCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8</gmd:MD_CharacterSetCode>
-         </gmd:characterEncoding>
-      </gmd:PT_Locale>
-   </gmd:locale>
-   <gmd:locale>
-      <gmd:PT_Locale id="locale_fra_CAN">
-         <gmd:languageCode>
-            <gmd:LanguageCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_116" codeListValue="fra">Français</gmd:LanguageCode>
-         </gmd:languageCode>
-         <gmd:country>
-            <gmd:Country codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_117" codeListValue="CAN">Canada</gmd:Country>
-         </gmd:country>
-         <gmd:characterEncoding>
-            <gmd:MD_CharacterSetCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8</gmd:MD_CharacterSetCode>
-         </gmd:characterEncoding>
-      </gmd:PT_Locale>
-   </gmd:locale>
-   <gmd:spatialRepresentationInfo>
-      <gmd:MD_VectorSpatialRepresentation>
-         <gmd:topologyLevel>
-            <gmd:MD_TopologyLevelCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_111" codeListValue="RI_662">geometryOnly</gmd:MD_TopologyLevelCode>
-         </gmd:topologyLevel>
-         <gmd:geometricObjects>
-            <gmd:MD_GeometricObjects>
-               <gmd:geometricObjectType>
-                  <gmd:MD_GeometricObjectTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_99" codeListValue="RI_508">point</gmd:MD_GeometricObjectTypeCode>
-               </gmd:geometricObjectType>
-               <gmd:geometricObjectCount>
-                  <gco:Integer>6308</gco:Integer>
-               </gmd:geometricObjectCount>
-            </gmd:MD_GeometricObjects>
-         </gmd:geometricObjects>
-      </gmd:MD_VectorSpatialRepresentation>
-   </gmd:spatialRepresentationInfo>
-   <gmd:referenceSystemInfo>
-      <gmd:MD_ReferenceSystem>
-         <gmd:referenceSystemIdentifier>
-            <gmd:RS_Identifier>
-               <gmd:code>
-                  <gco:CharacterString>EPSG:4269</gco:CharacterString>
-               </gmd:code>
-               <gmd:codeSpace>
-                  <gco:CharacterString>http://www.epsg-registry.org/</gco:CharacterString>
-               </gmd:codeSpace>
-               <gmd:version>
-                  <gco:CharacterString>6.14</gco:CharacterString>
-               </gmd:version>
-            </gmd:RS_Identifier>
-         </gmd:referenceSystemIdentifier>
-      </gmd:MD_ReferenceSystem>
-   </gmd:referenceSystemInfo>
-   <gmd:identificationInfo>
-      <gmd:MD_DataIdentification>
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>Nesting Site - Province of Ontario</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">Site de nidification - Ontario</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>1997-08-18</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2006-02-19</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_409">custodian</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>www.lio.mnr.gov.on.ca/en/OGDELogin.htm</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
-                                 </gmd:protocol>
-                                 <gmd:description>
-                                    <gco:CharacterString>Secure Web-based application by which registered individuals affiliated with organizations that are members of a Data Exchange administered by Land Information Ontario can order data sets to which they have appropriate access permission. Upon ordering the data sets are either prepared for download, and notice sent to requestor, or packaged and distributed offline.</gco:CharacterString>
-                                 </gmd:description>
-                                 <gmd:function>
-                                    <gmd:CI_OnLineFunctionCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_88" codeListValue="RI_378">order</gmd:CI_OnLineFunctionCode>
-                                 </gmd:function>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
-                           <gmd:hoursOfService>
-                              <gco:CharacterString>00:00:00/23:59:59</gco:CharacterString>
-                           </gmd:hoursOfService>
-                           <gmd:contactInstructions>
-                              <gco:CharacterString>If you are not a member of a Data Exchange, please contact Land Information Ontario Information Access unit by email at lio@ontario.ca or by telephone at 705-755-1878.</gco:CharacterString>
-                           </gmd:contactInstructions>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_412">distributor</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract xsi:type="PT_FreeText_PropertyType">
-            <gco:CharacterString>A Nesting Site is a point feature that identifies the location of one or more nests that belong to a particular species.  This Series is a single, physical collection of data representing an aggregation of discrete Nesting Site Datasets for each of the 26 Ontario Ministry of Natural Resources District.</gco:CharacterString>
-            <PT_FreeText>
-               <textGroup>
-                  <LocalisedCharacterString locale="#locale_fra_CAN">Un site de nidification est un objet ponctuel qui identifie la localisation d’un ou plusieurs nids qui appartiennent à une espèce particulière. Cette série est une collection physique de données unique qui représente un agrégat de jeux de données discret sur les sites de nidification pour chacun des 26 districts du ministère des Richesses naturelles de l’Ontario.</LocalisedCharacterString>
-               </textGroup>
-            </PT_FreeText>
-         </gmd:abstract>
-         <gmd:purpose>
-            <gco:CharacterString>To identify the location and types of Nesting Sites for wildlife management purposes in support of resource extraction, development, emergency response, and recreation planning activities.</gco:CharacterString>
-         </gmd:purpose>
-         <gmd:credit>
-            <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
-         </gmd:credit>
-         <gmd:status>
-            <gmd:MD_ProgressCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_106" codeListValue="RI_596">onGoing</gmd:MD_ProgressCode>
-         </gmd:status>
-         <gmd:resourceMaintenance>
-            <gmd:MD_MaintenanceInformation>
-               <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102" codeListValue="RI_541">irregular</gmd:MD_MaintenanceFrequencyCode>
-               </gmd:maintenanceAndUpdateFrequency>
-               <gmd:dateOfNextUpdate>
-                  <gco:Date>2007-03</gco:Date>
-               </gmd:dateOfNextUpdate>
-               <gmd:userDefinedMaintenanceFrequency>
-                  <gts:TM_PeriodDuration>P5Y</gts:TM_PeriodDuration>
-               </gmd:userDefinedMaintenanceFrequency>
-               <gmd:updateScope>
-                  <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108" codeListValue="RI_618">attribute</gmd:MD_ScopeCode>
-               </gmd:updateScope>
-               <gmd:updateScopeDescription>
-                  <gmd:MD_ScopeDescription>
-                     <gmd:other>
-                        <gco:CharacterString>Update activity determines whether existing nests are still in good repair, are in use, are occupied by the same species, are occupied by the same birds. Update activity also establishes values for attributes of new features.</gco:CharacterString>
-                     </gmd:other>
-                  </gmd:MD_ScopeDescription>
-               </gmd:updateScopeDescription>
-               <gmd:maintenanceNote>
-                  <gco:CharacterString>Nests unoccupied for 5 years or more leads to Feature instance being "frozen" (not included for analysis or display).</gco:CharacterString>
-               </gmd:maintenanceNote>
-               <gmd:contact>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_409">custodian</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:contact>
-            </gmd:MD_MaintenanceInformation>
-         </gmd:resourceMaintenance>
-         <gmd:resourceMaintenance>
-            <gmd:MD_MaintenanceInformation>
-               <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102" codeListValue="RI_541">irregular</gmd:MD_MaintenanceFrequencyCode>
-               </gmd:maintenanceAndUpdateFrequency>
-               <gmd:dateOfNextUpdate>
-                  <gco:Date>2007-03</gco:Date>
-               </gmd:dateOfNextUpdate>
-               <gmd:userDefinedMaintenanceFrequency>
-                  <gts:TM_PeriodDuration>P5Y</gts:TM_PeriodDuration>
-               </gmd:userDefinedMaintenanceFrequency>
-               <gmd:updateScope>
-                  <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108" codeListValue="RI_626">feature</gmd:MD_ScopeCode>
-               </gmd:updateScope>
-               <gmd:updateScopeDescription>
-                  <gmd:MD_ScopeDescription>
-                     <gmd:other>
-                        <gco:CharacterString>Update activity locates and identifies new nests.</gco:CharacterString>
-                     </gmd:other>
-                  </gmd:MD_ScopeDescription>
-               </gmd:updateScopeDescription>
-               <gmd:maintenanceNote>
-                  <gco:CharacterString>Nests unoccupied for 5 years or more leads to Feature instance being "frozen" (not included for analysis or display, status Not Active).</gco:CharacterString>
-               </gmd:maintenanceNote>
-               <gmd:contact>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_409">custodian</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:contact>
-            </gmd:MD_MaintenanceInformation>
-         </gmd:resourceMaintenance>
-         <gmd:graphicOverview>
-            <gmd:MD_BrowseGraphic>
-               <gmd:fileName>
-                  <gco:CharacterString>http://publicdocs.mnr.gov.on.ca/View.asp?Document_ID=9632&#38;Attachment_ID=18204</gco:CharacterString>
-               </gmd:fileName>
-               <gmd:fileDescription>
-                  <gco:CharacterString>Display created in ArcIMS using OMNR Base Data classes (eg roads, water features, utility corridors, treed areas, etc) as context for this point data set.</gco:CharacterString>
-               </gmd:fileDescription>
-               <gmd:fileType xsi:type="napm:napMD_FileFormatCode_PropertyType" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_115" codeListValue="RI_711">
-                  <gco:CharacterString>jpg</gco:CharacterString>
-               </gmd:fileType>
-            </gmd:MD_BrowseGraphic>
-         </gmd:graphicOverview>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>BIRDS</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">OISEAUX</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>COLONIES</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">COLONIES</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>NESTING</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">NIDIFICATION</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>NESTS</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">NIDS</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110" codeListValue="RI_528">theme</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>1972-06-22</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>2006-07-16</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:edition>
-                        <gco:CharacterString>Originally created to catalogue documents stored in the OMNR library and since modified</gco:CharacterString>
-                     </gmd:edition>
-                     <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                           <gmd:organisationName>
-                              <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                           </gmd:organisationName>
-                           <gmd:role>
-                              <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-                           </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                     </gmd:citedResponsibleParty>
-                  </gmd:CI_Citation>
-               </gmd:thesaurusName>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>FOREST MANAGEMENT</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">GESTION FORESTIÈRE</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>FORESTRY</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">FORESTERIE</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">AMÉNAGEMENT DU TERRITOIRE</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">PLANNIFICATION MUNICIPALE</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>WILDLIFE</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">FAUNE</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110" codeListValue="RI_524">discipline</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>1972-06-22</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>2006-07-16</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:edition>
-                        <gco:CharacterString>Originally created to catalogue documents stored in the OMNR library and since modified.</gco:CharacterString>
-                     </gmd:edition>
-                     <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                           <gmd:organisationName>
-                              <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                           </gmd:organisationName>
-                           <gmd:role>
-                              <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-                           </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                     </gmd:citedResponsibleParty>
-                  </gmd:CI_Citation>
-               </gmd:thesaurusName>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:descriptiveKeywords>
-            <gmd:MD_Keywords>
-               <gmd:keyword xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>ONTARIO</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">ONTARIO</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:keyword>
-               <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110" codeListValue="RI_525">place</gmd:MD_KeywordTypeCode>
-               </gmd:type>
-               <gmd:thesaurusName>
-                  <gmd:CI_Citation>
-                     <gmd:title>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus</gco:CharacterString>
-                     </gmd:title>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>1972-06-22</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:date>
-                        <gmd:CI_Date>
-                           <gmd:date>
-                              <gco:Date>2006-07-16</gco:Date>
-                           </gmd:date>
-                           <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision</gmd:CI_DateTypeCode>
-                           </gmd:dateType>
-                        </gmd:CI_Date>
-                     </gmd:date>
-                     <gmd:edition>
-                        <gco:CharacterString>Originally created to catalogue documents stored in the OMNR library and since modified.</gco:CharacterString>
-                     </gmd:edition>
-                     <gmd:citedResponsibleParty>
-                        <gmd:CI_ResponsibleParty>
-                           <gmd:organisationName>
-                              <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                           </gmd:organisationName>
-                           <gmd:role>
-                              <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-                           </gmd:role>
-                        </gmd:CI_ResponsibleParty>
-                     </gmd:citedResponsibleParty>
-                  </gmd:CI_Citation>
-               </gmd:thesaurusName>
-            </gmd:MD_Keywords>
-         </gmd:descriptiveKeywords>
-         <gmd:resourceConstraints>
-            <gmd:MD_Constraints>
-               <gmd:useLimitation>
-                  <gco:CharacterString>This information holding is not to be used for Legal Purposes.</gco:CharacterString>
-               </gmd:useLimitation>
-               <gmd:useLimitation>
-                  <gco:CharacterString>Statutory: This Information holding is to be used only for the purposes for which it was collected. Use must be in accordance with the terms of the licence issued by the Ontario Ministry of Natural Resources.</gco:CharacterString>
-               </gmd:useLimitation>
-               <gmd:useLimitation>
-                  <gco:CharacterString>Sensitivity: Although generally available to the public, some of the information in this information holding may be considered sensitive and, as such, access to the holding may, in whole or in part, be restricted to authorized individuals and/or organizations in accordance with the Ontario Rare and Endangered Species Act 2003. For more information, see Selected Wildlife and Habitat Features - Inventory Manual, W. B. Ranta, Kenora District, Section 2.2d. A list of authorized users is available from the Ontario Ministry of Natural Resources (OMNR) Information Access unit.</gco:CharacterString>
-               </gmd:useLimitation>
-               <gmd:useLimitation>
-                  <gco:CharacterString>Privacy: There are no known privacy concerns in this information holding.</gco:CharacterString>
-               </gmd:useLimitation>
-            </gmd:MD_Constraints>
-         </gmd:resourceConstraints>
-         <gmd:resourceConstraints>
-            <gmd:MD_LegalConstraints>
-               <gmd:accessConstraints>
-                  <gmd:MD_RestrictionCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107" codeListValue="RI_609">otherRestrictions</gmd:MD_RestrictionCode>
-               </gmd:accessConstraints>
-               <gmd:useConstraints>
-                  <gmd:MD_RestrictionCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107" codeListValue="RI_606">license</gmd:MD_RestrictionCode>
-               </gmd:useConstraints>
-            </gmd:MD_LegalConstraints>
-         </gmd:resourceConstraints>
-         <gmd:resourceConstraints>
-            <gmd:MD_SecurityConstraints>
-               <gmd:classification>
-                  <gmd:MD_ClassificationCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_96" codeListValue="RI_484">unclassified</gmd:MD_ClassificationCode>
-               </gmd:classification>
-            </gmd:MD_SecurityConstraints>
-         </gmd:resourceConstraints>
-         <gmd:spatialRepresentationType>
-            <gmd:MD_SpatialRepresentationTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_109" codeListValue="RI_635">vector</gmd:MD_SpatialRepresentationTypeCode>
-         </gmd:spatialRepresentationType>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution>
-               <gmd:equivalentScale>
-                  <gmd:MD_RepresentativeFraction>
-                     <gmd:denominator>
-                        <gco:Integer>20000</gco:Integer>
-                     </gmd:denominator>
-                  </gmd:MD_RepresentativeFraction>
-               </gmd:equivalentScale>
-            </gmd:MD_Resolution>
-         </gmd:spatialResolution>
-         <gmd:spatialResolution>
-            <gmd:MD_Resolution>
-               <gmd:distance>
-                  <gco:Distance uom="metre">10</gco:Distance>
-               </gmd:distance>
-            </gmd:MD_Resolution>
-         </gmd:spatialResolution>
-         <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
-         </gmd:language>
-         <gmd:language>
-            <gco:CharacterString>fra</gco:CharacterString>
-         </gmd:language>
-         <gmd:language>
-            <gco:CharacterString>cre</gco:CharacterString>
-         </gmd:language>
-         <gmd:characterSet>
-            <gmd:MD_CharacterSetCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95" codeListValue="RI_458">utf8</gmd:MD_CharacterSetCode>
-         </gmd:characterSet>
-         <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
-         </gmd:topicCategory>
-         <gmd:environmentDescription>
-            <gco:CharacterString>Spatial locations and attributes are maintained by the OMNR's Natural Resources Values Information System (NRVIS), a custom instance of ESRI ArcGIS 9.x supported by Oracle DBMS</gco:CharacterString>
-         </gmd:environmentDescription>
-         <gmd:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-95.9</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-74.18</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>41.4</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>56.5</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-            </gmd:EX_Extent>
-         </gmd:extent>
-      </gmd:MD_DataIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification>
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title xsi:type="PT_FreeText_PropertyType">
-                  <gco:CharacterString>Habitat Web Map Service (WMS)</gco:CharacterString>
-                  <PT_FreeText>
-                     <textGroup>
-                        <LocalisedCharacterString locale="#locale_fra_CAN">Service de cartes Web (SCW) d’habitats</LocalisedCharacterString>
-                     </textGroup>
-                  </PT_FreeText>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2005-01-01</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ontario Ministry of Natural Resources - Land Information Ontario</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1(705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>www.lio.gov.on.ca/en/ws_WMS.htm</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
-                                 </gmd:protocol>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_408">resourceProvider</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract xsi:type="PT_FreeText_PropertyType">
-            <gco:CharacterString>This Service comprises a subset of Geospatial data classes stored in the Ontario Land Information Warehouse related to wildlife habitat for several species in Ontario such as feeding areas, breeding areas, calving areas and nesting sites.  It is available for use as an OGC-compliant Web Map Service (WMS).</gco:CharacterString>
-            <PT_FreeText>
-               <textGroup>
-                  <LocalisedCharacterString locale="#locale_fra_CAN">Ce service inclut un sous-ensemble de classes de données géospatiales emmagasinées dans l’entrepôt d’information sur les terres de l’Ontario associé aux habitats de la faune de plusieurs espèces en Ontario tels que les aires d’alimentation, les aires de reproduction, les aires de mise bas et les sites de nidification. Il est aussi disponible pour être utilisé en tant que service des cartes Web (SCW) conforme à l’OGC.</LocalisedCharacterString>
-               </textGroup>
-            </PT_FreeText>
-         </gmd:abstract>
-         <gmd:status>
-            <gmd:MD_ProgressCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_106" codeListValue="RI_596">onGoing</gmd:MD_ProgressCode>
-         </gmd:status>
-         <srv:serviceType>
-            <gco:LocalName codeSpace="http://www.tc211.org/ISO19119/serviceTypes">WMS</gco:LocalName>
-         </srv:serviceType>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_114" codeListValue="RI_685">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP>
-                  <srv:DCPList codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_112" codeListValue="RI_677">WebServices</srv:DCPList>
-               </srv:DCP>
-               <srv:parameters>
-                  <srv:SV_Parameter>
-                     <srv:name>
-                        <gco:aName>
-                           <gco:CharacterString>version</gco:CharacterString>
-                        </gco:aName>
-                        <gco:attributeType>
-                           <gco:TypeName>
-                              <gco:aName>
-                                 <gco:CharacterString>OGCVersionNumberType</gco:CharacterString>
-                              </gco:aName>
-                           </gco:TypeName>
-                        </gco:attributeType>
-                     </srv:name>
-                     <srv:optionality>
-                        <gco:CharacterString>Mandatory</gco:CharacterString>
-                     </srv:optionality>
-                     <srv:repeatability>
-                        <gco:Boolean>false</gco:Boolean>
-                     </srv:repeatability>
-                     <srv:valueType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>CharacterString</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </srv:valueType>
-                  </srv:SV_Parameter>
-               </srv:parameters>
-               <srv:parameters>
-                  <srv:SV_Parameter>
-                     <srv:name>
-                        <gco:aName>
-                           <gco:CharacterString>service</gco:CharacterString>
-                        </gco:aName>
-                        <gco:attributeType>
-                           <gco:TypeName>
-                              <gco:aName>
-                                 <gco:CharacterString>OGCServiceType</gco:CharacterString>
-                              </gco:aName>
-                           </gco:TypeName>
-                        </gco:attributeType>
-                     </srv:name>
-                     <srv:optionality>
-                        <gco:CharacterString>Mandatory</gco:CharacterString>
-                     </srv:optionality>
-                     <srv:repeatability>
-                        <gco:Boolean>false</gco:Boolean>
-                     </srv:repeatability>
-                     <srv:valueType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>CharacterString</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </srv:valueType>
-                  </srv:SV_Parameter>
-               </srv:parameters>
-               <srv:parameters>
-               <srv:SV_Parameter>
-                     <srv:name>
-                        <gco:aName>
-                           <gco:CharacterString>request</gco:CharacterString>
-                        </gco:aName>
-                        <gco:attributeType>
-                           <gco:TypeName>
-                              <gco:aName>
-                                 <gco:CharacterString>OGCRequestType</gco:CharacterString>
-                              </gco:aName>
-                           </gco:TypeName>
-                        </gco:attributeType>
-                     </srv:name>
-                     <srv:optionality>
-                        <gco:CharacterString>Mandatory</gco:CharacterString>
-                     </srv:optionality>
-                     <srv:repeatability>
-                        <gco:Boolean>false</gco:Boolean>
-                     </srv:repeatability>
-                     <srv:valueType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>CharacterString</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </srv:valueType>
-                  </srv:SV_Parameter>
-               </srv:parameters>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>lioapp.lrc.gov.on.ca/LioOgcWms21/lioogcwmsserver/wms_habitat?version=1.1.1&#38;request=GetCapabilities&#38;service=WMS</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:protocol>
-                        <gco:CharacterString>http</gco:CharacterString>
-                     </gmd:protocol>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-      </srv:SV_ServiceIdentification>
-   </gmd:identificationInfo>
-   <gmd:contentInfo>
-      <gmd:MD_FeatureCatalogueDescription>
-         <gmd:complianceCode>
-            <gco:Boolean>false</gco:Boolean>
-         </gmd:complianceCode>
-         <gmd:language>
-            <gco:CharacterString>eng; CAN; utf8</gco:CharacterString>
-         </gmd:language>
-         <gmd:includedWithDataset>
-            <gco:Boolean>false</gco:Boolean>
-         </gmd:includedWithDataset>
-         <gmd:featureTypes>
-            <gco:LocalName>1015 Bald Eagle Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1037 Caspian Tern Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1042 Common Barn Owl Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1049 Cooper's Hawk Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1069 Eastern Bluebird Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1130 Loggerhead Shrike Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1097 Golden Eagle Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1185 Peregrine Falcon Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1345 Unidentified Hawk/Owl Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1344 Unidentified Heron Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1314 Cormorant Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1296 Turtle Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1280 White Pelican Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1211 Red-Shouldered Hawk Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1190 Piping Plover Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1189 Pileated Woodpecker Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1180 Osprey Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1700 Northern Goshawk Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1500 Sandhill Crane Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1450 Tundra Swan Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1449 Trumpeter Swan Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1448 Snow Goose Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1432 Common Tern Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1349 Arctic Tern Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1348 Unidentified Duck Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1347 Unidentified Goose Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1346 Unidentified Eagle/Osprey Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1100 Great Blue Heron Nesting Site/Colony</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1101 Great Gray Owl Nesting Site</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1121 Kirtland's Warbler Nesting Site (expired)</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1128 Least Bittern Nesting Site (expired)</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1133 Louisiana Tern Nesting Site (expired)</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1196 Prairie Warbler Nesting Site (expired)</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureTypes>
-            <gco:LocalName>1134 Louisiana Waterthrush Nesting Site (expired)</gco:LocalName>
-         </gmd:featureTypes>
-         <gmd:featureCatalogueCitation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>Standard NRVIS Interchange Format (SNIF) Report - 'Nesting Site'</gco:CharacterString>
-               </gmd:title>
-               <gmd:alternateTitle>
-                  <gco:CharacterString>SNIF Report - 'Nesting Site'</gco:CharacterString>
-               </gmd:alternateTitle>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2006-06-20</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:edition>
-                  <gco:CharacterString>SNIF Version 2.0</gco:CharacterString>
-               </gmd:edition>
-               <gmd:editionDate>
-                  <gco:Date>2003-05-22</gco:Date>
-               </gmd:editionDate>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:organisationName>
-                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:positionName>
-                        <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
-                     </gmd:positionName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                           <gmd:onlineResource>
-                              <gmd:CI_OnlineResource>
-                                 <gmd:linkage>
-                                    <gmd:URL>publicdocs.mnr.gov.on.ca/View.asp?Document_ID=8874&#38;Attachment_ID=16787</gmd:URL>
-                                 </gmd:linkage>
-                                 <gmd:protocol>
-                                    <gco:CharacterString>http</gco:CharacterString>
-                                 </gmd:protocol>
-                                 <gmd:description>
-                                    <gco:CharacterString>Detailed description of data dictionary and data model.</gco:CharacterString>
-                                 </gmd:description>
-                              </gmd:CI_OnlineResource>
-                           </gmd:onlineResource>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_414">pointOfContact</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:featureCatalogueCitation>
-      </gmd:MD_FeatureCatalogueDescription>
-   </gmd:contentInfo>
-   <gmd:distributionInfo>
-      <gmd:MD_Distribution>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>ESRI ARC/INFO Coverage</gco:CharacterString>
-               </gmd:name>
-               <gmd:version>
-                  <gco:CharacterString>not applicable</gco:CharacterString>
-               </gmd:version>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
-               </gmd:name>
-               <gmd:version>
-                  <gco:CharacterString>1998</gco:CharacterString>
-               </gmd:version>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>ESRI ARC/INFO Export (.e00)</gco:CharacterString>
-               </gmd:name>
-               <gmd:version>
-                  <gco:CharacterString>not applicable</gco:CharacterString>
-               </gmd:version>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>MNR NRVIS-Lite</gco:CharacterString>
-               </gmd:name>
-               <gmd:version>
-                  <gco:CharacterString>2.1</gco:CharacterString>
-               </gmd:version>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
-         <gmd:distributor>
-            <gmd:MD_Distributor>
-               <gmd:distributorContact>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:phone>
-                              <gmd:CI_Telephone>
-                                 <gmd:voice>
-                                    <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                                 </gmd:voice>
-                                 <gmd:facsimile>
-                                    <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                                 </gmd:facsimile>
-                              </gmd:CI_Telephone>
-                           </gmd:phone>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:deliveryPoint>
-                                    <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                                 </gmd:deliveryPoint>
-                                 <gmd:city>
-                                    <gco:CharacterString>Peterborough</gco:CharacterString>
-                                 </gmd:city>
-                                 <gmd:administrativeArea>
-                                    <gco:CharacterString>Ontario</gco:CharacterString>
-                                 </gmd:administrativeArea>
-                                 <gmd:postalCode>
-                                    <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                                 </gmd:postalCode>
-                                 <gmd:country>
-                                    <gco:CharacterString>Canada</gco:CharacterString>
-                                 </gmd:country>
-                                 <gmd:electronicMailAddress>
-                                    <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                                 </gmd:electronicMailAddress>
-                              </gmd:CI_Address>
-                           </gmd:address>
-                        </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_412">distributor</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:distributorContact>
-            </gmd:MD_Distributor>
-         </gmd:distributor>
-         <gmd:transferOptions>
-            <gmd:MD_DigitalTransferOptions>
-               <gmd:offLine>
-                  <gmd:MD_Medium>
-                     <gmd:name>
-                        <gmd:MD_MediumNameCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_104" codeListValue="RI_554">cdRom</gmd:MD_MediumNameCode>
-                     </gmd:name>
-                  </gmd:MD_Medium>
-               </gmd:offLine>
-            </gmd:MD_DigitalTransferOptions>
-         </gmd:transferOptions>
-         <gmd:transferOptions>
-            <gmd:MD_DigitalTransferOptions>
-               <gmd:offLine>
-                  <gmd:MD_Medium>
-                     <gmd:name>
-                        <gmd:MD_MediumNameCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_104" codeListValue="RI_556">dvdRom</gmd:MD_MediumNameCode>
-                     </gmd:name>
-                  </gmd:MD_Medium>
-               </gmd:offLine>
-            </gmd:MD_DigitalTransferOptions>
-         </gmd:transferOptions>
-      </gmd:MD_Distribution>
-   </gmd:distributionInfo>
-   <gmd:dataQualityInfo>
-      <gmd:DQ_DataQuality>
-         <gmd:scope>
-            <gmd:DQ_Scope>
-               <gmd:level>
-                  <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108" codeListValue="RI_623">series</gmd:MD_ScopeCode>
-               </gmd:level>
-            </gmd:DQ_Scope>
-         </gmd:scope>
-         <gmd:lineage>
-            <gmd:LI_Lineage>
-               <gmd:statement>
-                  <gco:CharacterString>Data is collected and maintained by Ontario Ministry of Natural Resources (OMNR) Districts using the Natural Resources Values Information System (NRVIS).</gco:CharacterString>
-               </gmd:statement>
-               <gmd:processStep>
-                  <gmd:LI_ProcessStep>
-                     <gmd:description>
-                        <gco:CharacterString>Investigation by OMNR staff biologists via GPS and remote GIS devices both on the ground and by helicopter.</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:rationale>
-                        <gco:CharacterString>Periodic update</gco:CharacterString>
-                     </gmd:rationale>
-                     <gmd:dateTime>
-                        <gco:DateTime>2006-04-15T00:00:00</gco:DateTime>
-                     </gmd:dateTime>
-                  </gmd:LI_ProcessStep>
-               </gmd:processStep>
-               <gmd:source>
-                  <gmd:LI_Source>
-                     <gmd:description>
-                        <gco:CharacterString>online; direct collection by Ontario Ministry of Natural Resources (OMNR) biologists via GPS
-                        </gco:CharacterString>
-                     </gmd:description>
-                  </gmd:LI_Source>
-               </gmd:source>
-               <gmd:source>
-                  <gmd:LI_Source>
-                     <gmd:description>
-                        <gco:CharacterString> hardcopyTracedPaper; direct collection by Ontario Ministry of Natural Resources (OMNR) biologists via observations
-                        </gco:CharacterString>
-                     </gmd:description>
-                  </gmd:LI_Source>
-               </gmd:source>
-               <gmd:source>
-                  <gmd:LI_Source>
-                     <gmd:description>
-                        <gco:CharacterString>online; vintage Ontario Base Maps (circa 1972-1985)
-                        </gco:CharacterString>
-                     </gmd:description>
-                  </gmd:LI_Source>
-               </gmd:source>
-            </gmd:LI_Lineage>
-         </gmd:lineage>
-      </gmd:DQ_DataQuality>
-   </gmd:dataQualityInfo>
-   <gmd:metadataMaintenance>
-      <gmd:MD_MaintenanceInformation>
-         <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102" codeListValue="RI_539">annually</gmd:MD_MaintenanceFrequencyCode>
-         </gmd:maintenanceAndUpdateFrequency>
-         <gmd:dateOfNextUpdate>
-            <gco:Date>2007-04-15</gco:Date>
-         </gmd:dateOfNextUpdate>
-         <gmd:updateScope>
-            <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108" codeListValue="RI_623">series</gmd:MD_ScopeCode>
-         </gmd:updateScope>
-         <gmd:updateScopeDescription>
-            <gmd:MD_ScopeDescription>
-               <gmd:other>
-                  <gco:CharacterString>Update activity checks for changes to any aspect of the dataset and modifies the Metadata record accordingly.</gco:CharacterString>
-               </gmd:other>
-            </gmd:MD_ScopeDescription>
-         </gmd:updateScopeDescription>
-         <gmd:contact>
-            <gmd:CI_ResponsibleParty>
-               <gmd:organisationName>
-                  <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
-               </gmd:organisationName>
-               <gmd:positionName>
-                  <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
-               </gmd:positionName>
-               <gmd:contactInfo>
-                  <gmd:CI_Contact>
-                     <gmd:phone>
+<gmd:MD_Metadata xmlns="http://www.isotc211.org/2005/gmd"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:napm="http://www.geoconnections.org/nap/metadata/Tools/napXsd/napm"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:srv="http://www.isotc211.org/schemas/2005/srv"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../2009/gmd/gmd.xsd http://www.isotc211.org/schemas/2005/srv ../2009/srv/srv.xsd http://www.geoconnections.org/nap/metadata/Tools/napXsd/napm ../2009/napm/napm.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>40ffba40-e192-4cbd-9fdc-89bd664e136b</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; CAN</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95"
+                                 codeListValue="RI_458">utf8
+        </gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108"
+                          codeListValue="RI_622">dataset
+        </gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+                <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
                         <gmd:CI_Telephone>
-                           <gmd:voice>
-                              <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
-                           </gmd:voice>
-                           <gmd:facsimile>
-                              <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
-                           </gmd:facsimile>
+                            <gmd:voice>
+                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                            </gmd:facsimile>
                         </gmd:CI_Telephone>
-                     </gmd:phone>
-                     <gmd:address>
+                    </gmd:phone>
+                    <gmd:address>
                         <gmd:CI_Address>
-                           <gmd:deliveryPoint>
-                              <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
-                           </gmd:deliveryPoint>
-                           <gmd:city>
-                              <gco:CharacterString>Peterborough</gco:CharacterString>
-                           </gmd:city>
-                           <gmd:administrativeArea>
-                              <gco:CharacterString>Ontario</gco:CharacterString>
-                           </gmd:administrativeArea>
-                           <gmd:postalCode>
-                              <gco:CharacterString>K7J 8M5</gco:CharacterString>
-                           </gmd:postalCode>
-                           <gmd:country>
-                              <gco:CharacterString>Canada</gco:CharacterString>
-                           </gmd:country>
-                           <gmd:electronicMailAddress>
-                              <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
-                           </gmd:electronicMailAddress>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Ontario</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>K9J 8M5</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>Canada</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
-                     </gmd:address>
-                  </gmd:CI_Contact>
-               </gmd:contactInfo>
-               <gmd:role>
-                  <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90" codeListValue="RI_409">custodian</gmd:CI_RoleCode>
-               </gmd:role>
-            </gmd:CI_ResponsibleParty>
-         </gmd:contact>
-      </gmd:MD_MaintenanceInformation>
-   </gmd:metadataMaintenance>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                 codeListValue="RI_414">pointOfContact
+                </gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2006-06-30</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>North American Profile of ISO19115:2003 - Geographic information - Metadata
+        </gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>CAN/CGSB-171.100-2009</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>http://lioapp.lrc.gov.on.ca/edwin/EDWINCGI.exe?IHID=260&#38;AgencyID=1&#38;Theme=All_Themes;
+            download
+        </gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:locale>
+        <gmd:PT_Locale id="locale_eng_CAN">
+            <gmd:languageCode>
+                <gmd:LanguageCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_116"
+                                  codeListValue="eng">English
+                </gmd:LanguageCode>
+            </gmd:languageCode>
+            <gmd:country>
+                <gmd:Country codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_117"
+                             codeListValue="CAN">Canada
+                </gmd:Country>
+            </gmd:country>
+            <gmd:characterEncoding>
+                <gmd:MD_CharacterSetCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95"
+                        codeListValue="RI_458">utf8
+                </gmd:MD_CharacterSetCode>
+            </gmd:characterEncoding>
+        </gmd:PT_Locale>
+    </gmd:locale>
+    <gmd:locale>
+        <gmd:PT_Locale id="locale_fra_CAN">
+            <gmd:languageCode>
+                <gmd:LanguageCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_116"
+                                  codeListValue="fra">Français
+                </gmd:LanguageCode>
+            </gmd:languageCode>
+            <gmd:country>
+                <gmd:Country codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_117"
+                             codeListValue="CAN">Canada
+                </gmd:Country>
+            </gmd:country>
+            <gmd:characterEncoding>
+                <gmd:MD_CharacterSetCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95"
+                        codeListValue="RI_458">utf8
+                </gmd:MD_CharacterSetCode>
+            </gmd:characterEncoding>
+        </gmd:PT_Locale>
+    </gmd:locale>
+    <gmd:spatialRepresentationInfo>
+        <gmd:MD_VectorSpatialRepresentation>
+            <gmd:topologyLevel>
+                <gmd:MD_TopologyLevelCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_111"
+                        codeListValue="RI_662">geometryOnly
+                </gmd:MD_TopologyLevelCode>
+            </gmd:topologyLevel>
+            <gmd:geometricObjects>
+                <gmd:MD_GeometricObjects>
+                    <gmd:geometricObjectType>
+                        <gmd:MD_GeometricObjectTypeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_99"
+                                codeListValue="RI_508">point
+                        </gmd:MD_GeometricObjectTypeCode>
+                    </gmd:geometricObjectType>
+                    <gmd:geometricObjectCount>
+                        <gco:Integer>6308</gco:Integer>
+                    </gmd:geometricObjectCount>
+                </gmd:MD_GeometricObjects>
+            </gmd:geometricObjects>
+        </gmd:MD_VectorSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>EPSG:4269</gco:CharacterString>
+                    </gmd:code>
+                    <gmd:codeSpace>
+                        <gco:CharacterString>http://www.epsg-registry.org/</gco:CharacterString>
+                    </gmd:codeSpace>
+                    <gmd:version>
+                        <gco:CharacterString>6.14</gco:CharacterString>
+                    </gmd:version>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>Nesting Site - Province of Ontario</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">Site de nidification - Ontario
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>1997-08-18</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                        codeListValue="RI_366">creation
+                                </gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2006-02-19</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                        codeListValue="RI_368">revision
+                                </gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_414">pointOfContact
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_409">custodian
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>www.lio.mnr.gov.on.ca/en/OGDELogin.htm</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                            <gmd:description>
+                                                <gco:CharacterString>Secure Web-based application by which registered
+                                                    individuals affiliated with organizations that are members of a Data
+                                                    Exchange administered by Land Information Ontario can order data
+                                                    sets to which they have appropriate access permission. Upon ordering
+                                                    the data sets are either prepared for download, and notice sent to
+                                                    requestor, or packaged and distributed offline.
+                                                </gco:CharacterString>
+                                            </gmd:description>
+                                            <gmd:function>
+                                                <gmd:CI_OnLineFunctionCode
+                                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_88"
+                                                        codeListValue="RI_378">order
+                                                </gmd:CI_OnLineFunctionCode>
+                                            </gmd:function>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                        <gco:CharacterString>00:00:00/23:59:59</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                        <gco:CharacterString>If you are not a member of a Data Exchange, please contact
+                                            Land Information Ontario Information Access unit by email at lio@ontario.ca
+                                            or by telephone at 705-755-1878.
+                                        </gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_412">distributor
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract xsi:type="PT_FreeText_PropertyType">
+                <gco:CharacterString>A Nesting Site is a point feature that identifies the location of one or more nests
+                    that belong to a particular species. This Series is a single, physical collection of data
+                    representing an aggregation of discrete Nesting Site Datasets for each of the 26 Ontario Ministry of
+                    Natural Resources District.
+                </gco:CharacterString>
+                <PT_FreeText>
+                    <textGroup>
+                        <LocalisedCharacterString locale="#locale_fra_CAN">Un site de nidification est un objet ponctuel
+                            qui identifie la localisation d’un ou plusieurs nids qui appartiennent à une espèce
+                            particulière. Cette série est une collection physique de données unique qui représente un
+                            agrégat de jeux de données discret sur les sites de nidification pour chacun des 26
+                            districts du ministère des Richesses naturelles de l’Ontario.
+                        </LocalisedCharacterString>
+                    </textGroup>
+                </PT_FreeText>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To identify the location and types of Nesting Sites for wildlife management
+                    purposes in support of resource extraction, development, emergency response, and recreation planning
+                    activities.
+                </gco:CharacterString>
+            </gmd:purpose>
+            <gmd:credit>
+                <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
+            </gmd:credit>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_106"
+                                     codeListValue="RI_596">onGoing
+                </gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102"
+                                codeListValue="RI_541">irregular
+                        </gmd:MD_MaintenanceFrequencyCode>
+                    </gmd:maintenanceAndUpdateFrequency>
+                    <gmd:dateOfNextUpdate>
+                        <gco:Date>2007-03</gco:Date>
+                    </gmd:dateOfNextUpdate>
+                    <gmd:userDefinedMaintenanceFrequency>
+                        <gts:TM_PeriodDuration>P5Y</gts:TM_PeriodDuration>
+                    </gmd:userDefinedMaintenanceFrequency>
+                    <gmd:updateScope>
+                        <gmd:MD_ScopeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108"
+                                codeListValue="RI_618">attribute
+                        </gmd:MD_ScopeCode>
+                    </gmd:updateScope>
+                    <gmd:updateScopeDescription>
+                        <gmd:MD_ScopeDescription>
+                            <gmd:other>
+                                <gco:CharacterString>Update activity determines whether existing nests are still in good
+                                    repair, are in use, are occupied by the same species, are occupied by the same
+                                    birds. Update activity also establishes values for attributes of new features.
+                                </gco:CharacterString>
+                            </gmd:other>
+                        </gmd:MD_ScopeDescription>
+                    </gmd:updateScopeDescription>
+                    <gmd:maintenanceNote>
+                        <gco:CharacterString>Nests unoccupied for 5 years or more leads to Feature instance being
+                            "frozen" (not included for analysis or display).
+                        </gco:CharacterString>
+                    </gmd:maintenanceNote>
+                    <gmd:contact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_409">custodian
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:contact>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102"
+                                codeListValue="RI_541">irregular
+                        </gmd:MD_MaintenanceFrequencyCode>
+                    </gmd:maintenanceAndUpdateFrequency>
+                    <gmd:dateOfNextUpdate>
+                        <gco:Date>2007-03</gco:Date>
+                    </gmd:dateOfNextUpdate>
+                    <gmd:userDefinedMaintenanceFrequency>
+                        <gts:TM_PeriodDuration>P5Y</gts:TM_PeriodDuration>
+                    </gmd:userDefinedMaintenanceFrequency>
+                    <gmd:updateScope>
+                        <gmd:MD_ScopeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108"
+                                codeListValue="RI_626">feature
+                        </gmd:MD_ScopeCode>
+                    </gmd:updateScope>
+                    <gmd:updateScopeDescription>
+                        <gmd:MD_ScopeDescription>
+                            <gmd:other>
+                                <gco:CharacterString>Update activity locates and identifies new nests.
+                                </gco:CharacterString>
+                            </gmd:other>
+                        </gmd:MD_ScopeDescription>
+                    </gmd:updateScopeDescription>
+                    <gmd:maintenanceNote>
+                        <gco:CharacterString>Nests unoccupied for 5 years or more leads to Feature instance being
+                            "frozen" (not included for analysis or display, status Not Active).
+                        </gco:CharacterString>
+                    </gmd:maintenanceNote>
+                    <gmd:contact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario - Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_409">custodian
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:contact>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:graphicOverview>
+                <gmd:MD_BrowseGraphic>
+                    <gmd:fileName>
+                        <gco:CharacterString>http://publicdocs.mnr.gov.on.ca/View.asp?Document_ID=9632&#38;Attachment_ID=18204</gco:CharacterString>
+                    </gmd:fileName>
+                    <gmd:fileDescription>
+                        <gco:CharacterString>Display created in ArcIMS using OMNR Base Data classes (eg roads, water
+                            features, utility corridors, treed areas, etc) as context for this point data set.
+                        </gco:CharacterString>
+                    </gmd:fileDescription>
+                    <gmd:fileType xsi:type="napm:napMD_FileFormatCode_PropertyType"
+                                  codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_115"
+                                  codeListValue="RI_711">
+                        <gco:CharacterString>jpg</gco:CharacterString>
+                    </gmd:fileType>
+                </gmd:MD_BrowseGraphic>
+            </gmd:graphicOverview>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>BIRDS</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">OISEAUX</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>COLONIES</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">COLONIES</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>NESTING</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">NIDIFICATION
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>NESTS</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">NIDS</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110"
+                                codeListValue="RI_528">theme
+                        </gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus
+                                </gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>1972-06-22</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_366">creation
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2006-07-16</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_368">revision
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:edition>
+                                <gco:CharacterString>Originally created to catalogue documents stored in the OMNR
+                                    library and since modified
+                                </gco:CharacterString>
+                            </gmd:edition>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                                codeListValue="RI_414">pointOfContact
+                                        </gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>FOREST MANAGEMENT</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">GESTION FORESTIÈRE
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>FORESTRY</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">FORESTERIE</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">AMÉNAGEMENT DU TERRITOIRE
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">PLANNIFICATION MUNICIPALE
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>WILDLIFE</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">FAUNE</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110"
+                                codeListValue="RI_524">discipline
+                        </gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus
+                                </gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>1972-06-22</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_366">creation
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2006-07-16</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_368">revision
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:edition>
+                                <gco:CharacterString>Originally created to catalogue documents stored in the OMNR
+                                    library and since modified.
+                                </gco:CharacterString>
+                            </gmd:edition>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                                codeListValue="RI_414">pointOfContact
+                                        </gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>ONTARIO</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">ONTARIO</LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_110"
+                                codeListValue="RI_525">place
+                        </gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources (OMNR) Thesaurus
+                                </gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>1972-06-22</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_366">creation
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2006-07-16</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                                codeListValue="RI_368">revision
+                                        </gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:edition>
+                                <gco:CharacterString>Originally created to catalogue documents stored in the OMNR
+                                    library and since modified.
+                                </gco:CharacterString>
+                            </gmd:edition>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode
+                                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                                codeListValue="RI_414">pointOfContact
+                                        </gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_Constraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>This information holding is not to be used for Legal Purposes.
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Statutory: This Information holding is to be used only for the purposes for
+                            which it was collected. Use must be in accordance with the terms of the licence issued by
+                            the Ontario Ministry of Natural Resources.
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Sensitivity: Although generally available to the public, some of the
+                            information in this information holding may be considered sensitive and, as such, access to
+                            the holding may, in whole or in part, be restricted to authorized individuals and/or
+                            organizations in accordance with the Ontario Rare and Endangered Species Act 2003. For more
+                            information, see Selected Wildlife and Habitat Features - Inventory Manual, W. B. Ranta,
+                            Kenora District, Section 2.2d. A list of authorized users is available from the Ontario
+                            Ministry of Natural Resources (OMNR) Information Access unit.
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Privacy: There are no known privacy concerns in this information holding.
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                </gmd:MD_Constraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107"
+                                codeListValue="RI_609">otherRestrictions
+                        </gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107"
+                                codeListValue="RI_606">license
+                        </gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_SecurityConstraints>
+                    <gmd:classification>
+                        <gmd:MD_ClassificationCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_96"
+                                codeListValue="RI_484">unclassified
+                        </gmd:MD_ClassificationCode>
+                    </gmd:classification>
+                </gmd:MD_SecurityConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_109"
+                        codeListValue="RI_635">vector
+                </gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>20000</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="metre">10</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:language>
+                <gco:CharacterString>fra</gco:CharacterString>
+            </gmd:language>
+            <gmd:language>
+                <gco:CharacterString>cre</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95"
+                        codeListValue="RI_458">utf8
+                </gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:environmentDescription>
+                <gco:CharacterString>Spatial locations and attributes are maintained by the OMNR's Natural Resources
+                    Values Information System (NRVIS), a custom instance of ESRI ArcGIS 9.x supported by Oracle DBMS
+                </gco:CharacterString>
+            </gmd:environmentDescription>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:extentTypeCode>
+                                <gco:Boolean>1</gco:Boolean>
+                            </gmd:extentTypeCode>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-95.9</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-74.18</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>41.4</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>56.5</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:identificationInfo>
+        <srv:SV_ServiceIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title xsi:type="PT_FreeText_PropertyType">
+                        <gco:CharacterString>Habitat Web Map Service (WMS)</gco:CharacterString>
+                        <PT_FreeText>
+                            <textGroup>
+                                <LocalisedCharacterString locale="#locale_fra_CAN">Service de cartes Web (SCW)
+                                    d’habitats
+                                </LocalisedCharacterString>
+                            </textGroup>
+                        </PT_FreeText>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2005-01-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                        codeListValue="RI_366">creation
+                                </gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources - Land Information Ontario
+                                </gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1(705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>www.lio.gov.on.ca/en/ws_WMS.htm</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_408">resourceProvider
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract xsi:type="PT_FreeText_PropertyType">
+                <gco:CharacterString>This Service comprises a subset of Geospatial data classes stored in the Ontario
+                    Land Information Warehouse related to wildlife habitat for several species in Ontario such as
+                    feeding areas, breeding areas, calving areas and nesting sites. It is available for use as an
+                    OGC-compliant Web Map Service (WMS).
+                </gco:CharacterString>
+                <PT_FreeText>
+                    <textGroup>
+                        <LocalisedCharacterString locale="#locale_fra_CAN">Ce service inclut un sous-ensemble de classes
+                            de données géospatiales emmagasinées dans l’entrepôt d’information sur les terres de
+                            l’Ontario associé aux habitats de la faune de plusieurs espèces en Ontario tels que les
+                            aires d’alimentation, les aires de reproduction, les aires de mise bas et les sites de
+                            nidification. Il est aussi disponible pour être utilisé en tant que service des cartes Web
+                            (SCW) conforme à l’OGC.
+                        </LocalisedCharacterString>
+                    </textGroup>
+                </PT_FreeText>
+            </gmd:abstract>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_106"
+                                     codeListValue="RI_596">onGoing
+                </gmd:MD_ProgressCode>
+            </gmd:status>
+            <srv:serviceType>
+                <gco:LocalName codeSpace="http://www.tc211.org/ISO19119/serviceTypes">WMS</gco:LocalName>
+            </srv:serviceType>
+            <srv:couplingType>
+                <srv:SV_CouplingType codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_114"
+                                     codeListValue="RI_685">tight
+                </srv:SV_CouplingType>
+            </srv:couplingType>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>GetCapabilities</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_112"
+                                     codeListValue="RI_677">WebServices
+                        </srv:DCPList>
+                    </srv:DCP>
+                    <srv:parameters>
+                        <srv:SV_Parameter>
+                            <srv:name>
+                                <gco:aName>
+                                    <gco:CharacterString>version</gco:CharacterString>
+                                </gco:aName>
+                                <gco:attributeType>
+                                    <gco:TypeName>
+                                        <gco:aName>
+                                            <gco:CharacterString>OGCVersionNumberType</gco:CharacterString>
+                                        </gco:aName>
+                                    </gco:TypeName>
+                                </gco:attributeType>
+                            </srv:name>
+                            <srv:optionality>
+                                <gco:CharacterString>Mandatory</gco:CharacterString>
+                            </srv:optionality>
+                            <srv:repeatability>
+                                <gco:Boolean>false</gco:Boolean>
+                            </srv:repeatability>
+                            <srv:valueType>
+                                <gco:TypeName>
+                                    <gco:aName>
+                                        <gco:CharacterString>CharacterString</gco:CharacterString>
+                                    </gco:aName>
+                                </gco:TypeName>
+                            </srv:valueType>
+                        </srv:SV_Parameter>
+                    </srv:parameters>
+                    <srv:parameters>
+                        <srv:SV_Parameter>
+                            <srv:name>
+                                <gco:aName>
+                                    <gco:CharacterString>service</gco:CharacterString>
+                                </gco:aName>
+                                <gco:attributeType>
+                                    <gco:TypeName>
+                                        <gco:aName>
+                                            <gco:CharacterString>OGCServiceType</gco:CharacterString>
+                                        </gco:aName>
+                                    </gco:TypeName>
+                                </gco:attributeType>
+                            </srv:name>
+                            <srv:optionality>
+                                <gco:CharacterString>Mandatory</gco:CharacterString>
+                            </srv:optionality>
+                            <srv:repeatability>
+                                <gco:Boolean>false</gco:Boolean>
+                            </srv:repeatability>
+                            <srv:valueType>
+                                <gco:TypeName>
+                                    <gco:aName>
+                                        <gco:CharacterString>CharacterString</gco:CharacterString>
+                                    </gco:aName>
+                                </gco:TypeName>
+                            </srv:valueType>
+                        </srv:SV_Parameter>
+                    </srv:parameters>
+                    <srv:parameters>
+                        <srv:SV_Parameter>
+                            <srv:name>
+                                <gco:aName>
+                                    <gco:CharacterString>request</gco:CharacterString>
+                                </gco:aName>
+                                <gco:attributeType>
+                                    <gco:TypeName>
+                                        <gco:aName>
+                                            <gco:CharacterString>OGCRequestType</gco:CharacterString>
+                                        </gco:aName>
+                                    </gco:TypeName>
+                                </gco:attributeType>
+                            </srv:name>
+                            <srv:optionality>
+                                <gco:CharacterString>Mandatory</gco:CharacterString>
+                            </srv:optionality>
+                            <srv:repeatability>
+                                <gco:Boolean>false</gco:Boolean>
+                            </srv:repeatability>
+                            <srv:valueType>
+                                <gco:TypeName>
+                                    <gco:aName>
+                                        <gco:CharacterString>CharacterString</gco:CharacterString>
+                                    </gco:aName>
+                                </gco:TypeName>
+                            </srv:valueType>
+                        </srv:SV_Parameter>
+                    </srv:parameters>
+                    <srv:connectPoint>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>lioapp.lrc.gov.on.ca/LioOgcWms21/lioogcwmsserver/wms_habitat?version=1.1.1&#38;request=GetCapabilities&#38;service=WMS</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>http</gco:CharacterString>
+                            </gmd:protocol>
+                        </gmd:CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+        </srv:SV_ServiceIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+        <gmd:MD_FeatureCatalogueDescription>
+            <gmd:complianceCode>
+                <gco:Boolean>false</gco:Boolean>
+            </gmd:complianceCode>
+            <gmd:language>
+                <gco:CharacterString>eng; CAN; utf8</gco:CharacterString>
+            </gmd:language>
+            <gmd:includedWithDataset>
+                <gco:Boolean>false</gco:Boolean>
+            </gmd:includedWithDataset>
+            <gmd:featureTypes>
+                <gco:LocalName>1015 Bald Eagle Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1037 Caspian Tern Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1042 Common Barn Owl Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1049 Cooper's Hawk Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1069 Eastern Bluebird Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1130 Loggerhead Shrike Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1097 Golden Eagle Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1185 Peregrine Falcon Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1345 Unidentified Hawk/Owl Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1344 Unidentified Heron Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1314 Cormorant Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1296 Turtle Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1280 White Pelican Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1211 Red-Shouldered Hawk Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1190 Piping Plover Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1189 Pileated Woodpecker Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1180 Osprey Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1700 Northern Goshawk Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1500 Sandhill Crane Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1450 Tundra Swan Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1449 Trumpeter Swan Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1448 Snow Goose Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1432 Common Tern Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1349 Arctic Tern Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1348 Unidentified Duck Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1347 Unidentified Goose Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1346 Unidentified Eagle/Osprey Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1100 Great Blue Heron Nesting Site/Colony</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1101 Great Gray Owl Nesting Site</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1121 Kirtland's Warbler Nesting Site (expired)</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1128 Least Bittern Nesting Site (expired)</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1133 Louisiana Tern Nesting Site (expired)</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1196 Prairie Warbler Nesting Site (expired)</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName>1134 Louisiana Waterthrush Nesting Site (expired)</gco:LocalName>
+            </gmd:featureTypes>
+            <gmd:featureCatalogueCitation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Standard NRVIS Interchange Format (SNIF) Report - 'Nesting Site'
+                        </gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>SNIF Report - 'Nesting Site'</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2006-06-20</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87"
+                                        codeListValue="RI_368">revision
+                                </gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:edition>
+                        <gco:CharacterString>SNIF Version 2.0</gco:CharacterString>
+                    </gmd:edition>
+                    <gmd:editionDate>
+                        <gco:Date>2003-05-22</gco:Date>
+                    </gmd:editionDate>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>publicdocs.mnr.gov.on.ca/View.asp?Document_ID=8874&#38;Attachment_ID=16787</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                            <gmd:description>
+                                                <gco:CharacterString>Detailed description of data dictionary and data
+                                                    model.
+                                                </gco:CharacterString>
+                                            </gmd:description>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_414">pointOfContact
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:featureCatalogueCitation>
+        </gmd:MD_FeatureCatalogueDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ESRI ARC/INFO Coverage</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>not applicable</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>1998</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>ESRI ARC/INFO Export (.e00)</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>not applicable</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>MNR NRVIS-Lite</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>2.1</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>physical; 300; Water Street; ;
+                                                </gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Peterborough</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Ontario</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Canada</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                        codeListValue="RI_412">distributor
+                                </gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:offLine>
+                        <gmd:MD_Medium>
+                            <gmd:name>
+                                <gmd:MD_MediumNameCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_104"
+                                        codeListValue="RI_554">cdRom
+                                </gmd:MD_MediumNameCode>
+                            </gmd:name>
+                        </gmd:MD_Medium>
+                    </gmd:offLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:offLine>
+                        <gmd:MD_Medium>
+                            <gmd:name>
+                                <gmd:MD_MediumNameCode
+                                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_104"
+                                        codeListValue="RI_556">dvdRom
+                                </gmd:MD_MediumNameCode>
+                            </gmd:name>
+                        </gmd:MD_Medium>
+                    </gmd:offLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108"
+                                codeListValue="RI_623">series
+                        </gmd:MD_ScopeCode>
+                    </gmd:level>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>Data is collected and maintained by Ontario Ministry of Natural Resources
+                            (OMNR) Districts using the Natural Resources Values Information System (NRVIS).
+                        </gco:CharacterString>
+                    </gmd:statement>
+                    <gmd:processStep>
+                        <gmd:LI_ProcessStep>
+                            <gmd:description>
+                                <gco:CharacterString>Investigation by OMNR staff biologists via GPS and remote GIS
+                                    devices both on the ground and by helicopter.
+                                </gco:CharacterString>
+                            </gmd:description>
+                            <gmd:rationale>
+                                <gco:CharacterString>Periodic update</gco:CharacterString>
+                            </gmd:rationale>
+                            <gmd:dateTime>
+                                <gco:DateTime>2006-04-15T00:00:00</gco:DateTime>
+                            </gmd:dateTime>
+                        </gmd:LI_ProcessStep>
+                    </gmd:processStep>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>online; direct collection by Ontario Ministry of Natural Resources
+                                    (OMNR) biologists via GPS
+                                </gco:CharacterString>
+                            </gmd:description>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>hardcopyTracedPaper; direct collection by Ontario Ministry of
+                                    Natural Resources (OMNR) biologists via observations
+                                </gco:CharacterString>
+                            </gmd:description>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>online; vintage Ontario Base Maps (circa 1972-1985)
+                                </gco:CharacterString>
+                            </gmd:description>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+                <gmd:MD_MaintenanceFrequencyCode
+                        codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102"
+                        codeListValue="RI_539">annually
+                </gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+            <gmd:dateOfNextUpdate>
+                <gco:Date>2007-04-15</gco:Date>
+            </gmd:dateOfNextUpdate>
+            <gmd:updateScope>
+                <gmd:MD_ScopeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_108"
+                                  codeListValue="RI_623">series
+                </gmd:MD_ScopeCode>
+            </gmd:updateScope>
+            <gmd:updateScopeDescription>
+                <gmd:MD_ScopeDescription>
+                    <gmd:other>
+                        <gco:CharacterString>Update activity checks for changes to any aspect of the dataset and
+                            modifies the Metadata record accordingly.
+                        </gco:CharacterString>
+                    </gmd:other>
+                </gmd:MD_ScopeDescription>
+            </gmd:updateScopeDescription>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Ontario Ministry of Natural Resources</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Land Information Ontario Support</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>voice; 1 (705) 7551878</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString>1 (705) 7551677</gco:CharacterString>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>physical; 300; Water Street; ;</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Peterborough</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Ontario</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>K7J 8M5</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>Canada</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>lio@ontario.ca</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                                codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"
+                                codeListValue="RI_409">custodian
+                        </gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
 </gmd:MD_Metadata>

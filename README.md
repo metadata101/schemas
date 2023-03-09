@@ -43,10 +43,12 @@ North American Profile of ISO 19115:2003 – Geographic information – Metadata
     * gss
     * gts
     * napm
+  * examples/
   * hnap/2.3.1
   * iso/19135-2/2012
   * ogc/gml/3.2.1
- 
+  * register
+   
 ## nap.geogratis.gc.ca 
 
 Refactoring of the decommissioned HNAP "geogratis" schema repository:
