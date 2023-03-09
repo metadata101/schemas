@@ -271,7 +271,7 @@ Warning: in some software, because of autocorrection, "-" becomes "–" which is
 
 ```xml
 <gmd:spatialRepresentationType>
-    <gmd:MD_SpatialRepresentationTypeCode codeListValue="RI_635" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109">vector; vecteur</gmd:MD_SpatialRepresentationTypeCode>
+    <gmd:MD_SpatialRepresentationTypeCode codeListValue="RI_635" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_109">vector; vecteur</gmd:MD_SpatialRepresentationTypeCode>
  </gmd:spatialRepresentationType>
 ```
 
@@ -314,9 +314,6 @@ Warning: in some software, because of autocorrection, "-" becomes "–" which is
 For data not released under the Open Government Licence - Canada (non-open data), 5.4.2 Legal Constraints is mandatory with the appropriate text added to 5.4.2.1 useLimitation to convey restrictions and the appropriate code selected from napMD_RestrictionCode for both 5.4.2.2 accessConstraints and 5.4.2.3 useConstraints.
 
 5.2.3.4 otherConstraints is mandatory where accessConstraints and/or useConstraints are set to “otherRestrictions”, and will appropriately note any other restrictions.
-
-</tbody>
-</table>
 
 ## Keywords ``MD_Keywords``
 
@@ -382,7 +379,7 @@ Source LAC: https://canada.multites.net/cst/def.asp?lang=En&n=EF4A5555-1
     </gmd:date>
     <gmd:dateType>
       <gmd:CI_DateTypeCode codeListValue="RI_366"
-                           codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">creation;création </gmd:CI_DateTypeCode>
+                           codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87">creation;création </gmd:CI_DateTypeCode>
     </gmd:dateType>
   </gmd:CI_Date>
 </gmd:date>
@@ -393,7 +390,7 @@ Source LAC: https://canada.multites.net/cst/def.asp?lang=En&n=EF4A5555-1
     </gmd:date>
     <gmd:dateType>
       <gmd:CI_DateTypeCode codeListValue="RI_367"
-                           codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication;publication</gmd:CI_DateTypeCode>
+                           codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87">publication;publication</gmd:CI_DateTypeCode>
     </gmd:dateType>
   </gmd:CI_Date>
 </gmd:date>
@@ -408,7 +405,7 @@ Source LAC: https://canada.multites.net/cst/def.asp?lang=En&n=EF4A5555-1
     </gmd:PT_FreeText>
   </gmd:organisationName>
   <gmd:role>
-    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+    <gmd:CI_RoleCode codeListValue="RI_409" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
   </gmd:role>
 </gmd:CI_ResponsibleParty>
 </gmd:citedResponsibleParty>
@@ -469,10 +466,10 @@ For data not released under the Open Government Licence - Canada (i.e. assessed 
        </gmd:PT_FreeText>
      </gmd:useLimitation>
     <gmd:accessConstraints>
-       <gmd:MD_RestrictionCode codeListValue="RI_606"    codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
+       <gmd:MD_RestrictionCode codeListValue="RI_606"    codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
      </gmd:accessConstraints>
     <gmd:useConstraints>
-       <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
+       <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
     </gmd:useConstraints>
   </gmd:MD_LegalConstraints>
 </gmd:resourceConstraints>
@@ -493,7 +490,7 @@ For data not released under the Open Government Licence - Canada (i.e. assessed 
     <gmd:MD_MaintenanceInformation>
        <gmd:maintenanceAndUpdateFrequency>
           <gmd:MD_MaintenanceFrequencyCode codeListValue="RI_538"
-                                           codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102">biannually; semestriel</gmd:MD_MaintenanceFrequencyCode>
+                                           codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_102">biannually; semestriel</gmd:MD_MaintenanceFrequencyCode>
        </gmd:maintenanceAndUpdateFrequency>
      </gmd:MD_MaintenanceInformation>
  </gmd:resourceMaintenance>
@@ -620,7 +617,7 @@ SR-ORG
 
 NOTE: ZIP is not a useful descriptor for format from a usability perspective; it is not a recommended choice for format. Where a ZIP or other compression file is provided, please ensure that you <span class="underline">ALSO</span> indicate all resource formats found within the compressed file. This enables users to assess whether the resource is available in a format(s) they can use, without having to download and unzip the file.</strong>
 
-NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia.gc.ca/wiki/Federal_Geospatial_Platform/Policies_and_Standards/Catalogue/Release/Appendix_B_Guidelines_and_Best_Practices/Guide_to_Harmonized_ISO_19115:2003_NAP/Format">FGP Format Names controlled vocabulary</a>, please contact <strong>Cindy Mitchell, Natural Resources Canada (<a href="mailto:cindy.mitchell@canada.ca">cindy.mitchell@canada.ca</a>).</strong></p>
+NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia.gc.ca/wiki/Federal_Geospatial_Platform/Policies_and_Standards/Catalogue/Release/Appendix_B_Guidelines_and_Best_Practices/Guide_to_Harmonized_ISO_19115:2003_NAP/Format">FGP Format Names controlled vocabulary</a>, please contact <strong>Cindy Mitchell, Natural Resources Canada (<a href="mailto:cindy.mitchell@canada.ca">cindy.mitchell@canada.ca</a>).
 
 ### Clause: 5.11.3.2 ``version``\*\*
 
@@ -715,7 +712,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
 
 ### Clause: 5.15.2 ``dateType``
 
-**Reference:** Codelist ```xml [napCI_DateTypeCod](http://nap.geogratis.gc.ca/metadata/register/codelists-eng.html#IC_87)
+**Reference:** Codelist [napCI_DateTypeCod](http://nap.geogratis.gc.ca/metadata/register/codelists-eng.html#IC_87)
 
 **Guideline:** date and dateType values shall be provided for dateType values of creation, publication, and (where applicable) revision.
 
@@ -728,7 +725,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
         <gco:Date>2009-10-31</gco:Date>
       </gmd:date>
       <gmd:dateType>
-        <gmd:CI_DateTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87" codeListValue="RI_367">publication; publication</gmd:CI_DateTypeCode> 
+        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_367">publication; publication</gmd:CI_DateTypeCode> 
         </gmd:dateType>
     </gmd:CI_Date>
   </gmd:date>
@@ -738,7 +735,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
         <gco:Date>2009-10-31</gco:Date>
       </gmd:date>
       <gmd:dateType>
-        <gmd:CI_DateTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation; création</gmd:CI_DateTypeCode>
+        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_366">creation; création</gmd:CI_DateTypeCode>
       </gmd:dateType>
     </gmd:CI_Date>
   </gmd:date>
@@ -748,7 +745,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
         <gco:Date>2009-10-31</gco:Date>
       </gmd:date>
       <gmd:dateType>
-        <gmd:CI_DateTypeCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision; révision</gmd:CI_DateTypeCode> 
+        <gmd:CI_DateTypeCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_87" codeListValue="RI_368">revision; révision</gmd:CI_DateTypeCode> 
       </gmd:dateType>
     </gmd:CI_Date>
   </gmd:date>
@@ -768,7 +765,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
 
 ### Clause: 5.16.5 ``role``
 
-**Reference:** Codelist ```xml [napCI_RoleCode](http://nap.geogratis.gc.ca/metadata/register/codelists-eng.html#IC_90)
+**Reference:** Codelist [napCI_RoleCode](http://nap.geogratis.gc.ca/metadata/register/codelists-eng.html#IC_90)
 
 **Example:**
 
@@ -796,7 +793,7 @@ NOTE: If you have a format that is not listed in the <a href="http://www.gcpedia
     </gmd:contactInfo>
     <gmd:role>
       <gmd:CI_RoleCode codeListValue="RI_414"
-                       codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+                       codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
     </gmd:role>
   </gmd:CI_ResponsibleParty>
 </gmd:contact>
@@ -843,7 +840,7 @@ Optionally, two other non-standard parameters can be added to indicate the prefe
     Single layer or group layer name with optional parameters:<br/>
   http://maps.geogratis.gc.ca/wms/railway_en?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;layers=railway&amp;legend_format=image/png&amp;feature_info_type=text/html
 
-2. For an Esri Map Service:</p>
+2. For an Esri Map Service:
 
    Multiple, group or dynamic layers: An Esri mapserver request.
 
@@ -858,7 +855,7 @@ Optionally, two other non-standard parameters can be added to indicate the prefe
    http://ec.gc.ca/arcgis/rest/services/CESI_FGP_All_Layers/MapServer/0
 
    Dynamic capabilities: <br/>
-   http://www.agr.gc.ca/atlas/rest/services/mapservices/aafc_census_of_agriculture_2011_ccs/MapServer</a>
+   http://www.agr.gc.ca/atlas/rest/services/mapservices/aafc_census_of_agriculture_2011_ccs/MapServer
 
    Feature layer: <br/>
    http://ec.gc.ca/arcgis/rest/services/data_donnees/16074bd5-66ed-45a5-b9c3-a9c33cf58e6c/MapServer/0
@@ -899,11 +896,11 @@ Optionally, two other non-standard parameters can be added to indicate the prefe
 
 **FGP Requirement:** This element is being used to support communication between the FGP Catalogue and the RCS service. Several types of web map services are designated as compatible for use with RCS and the FGP Visualization application. To allow the RCS application to recognize and work with these supported services, these web map services will be documented in the protocol element as:
 
-1. OGC:WMS</strong> for OGC Web Map Service</p></li>
-2. ESRI REST: Map Service</strong> for Esri Mapping Service</p></li>
-3. ESRI REST: Feature Service</strong> for Esri Feature Service</p></li>
-4. ESRI REST: Image Service</strong> for Esri Image Service</p></li>
-5. ESRI REST: Tiled Map Service</strong> for Esri Tiled Map Service</p></li>
+1. OGC:WMS</strong> for OGC Web Map Service
+2. ESRI REST: Map Service</strong> for Esri Mapping Service
+3. ESRI REST: Feature Service</strong> for Esri Feature Service
+4. ESRI REST: Image Service</strong> for Esri Image Service
+5. ESRI REST: Tiled Map Service</strong> for Esri Tiled Map Service
 
 **Guideline:** For any other online resources (i.e. not an FGP supported web map service), a value for 5.20.2 protocol should be taken from an official controlled list such as the Official Internet Protocol Standards published on the Web at >http://www.rfc-editor.org/rfcxx00.html or the Internet Assigned Numbers Authority (IANA) at http://www.iana.org/numbers.html. Protocol value is typically HTTP, HTTPS or FTP.
 
@@ -1019,14 +1016,14 @@ Language:
   <gmd:locale>
     <gmd:PT_Locale id="fra">
       <gmd:languageCode>
-        <gmd:LanguageCode codeListValue="fra" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116">French; Français</gmd:LanguageCode>
+        <gmd:LanguageCode codeListValue="fra" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_116">French; Français</gmd:LanguageCode>
       </gmd:languageCode>
       <gmd:country>
-        <gmd:Country codeListValue="CAN" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117" >Canada; Canada</gmd:Country>
+        <gmd:Country codeListValue="CAN" codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_117" >Canada; Canada</gmd:Country>
       </gmd:country>
       <gmd:characterEncoding>
         <gmd:MD_CharacterSetCode codeListValue="RI_458"
-codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95" >utf8; utf8</gmd:MD_CharacterSetCode>
+codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_95" >utf8; utf8</gmd:MD_CharacterSetCode>
       </gmd:characterEncoding>
     </gmd:PT_Locale>
   </gmd:locale>
@@ -1068,11 +1065,11 @@ Implement one bilingual metadata record per dataset.
   xmlns:srv="http://www.isotc211.org/2005/srv"
   xsi:schemaLocation="
    http://www.isotc211.org/2005/gmd
-     http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd
+     https://schemas.metadata.geo.ca//2009/gmd/gmd.xsd
    http://www.isotc211.org/2005/srv
-     http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd
+     https://schemas.metadata.geo.ca/2009/srv/srv.xsd
    http://www.geconnections.org/nap/napMetadataTools/napXsd/napm
-     http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd">
+     https://schemas.metadata.geo.ca/2009/napm/napm.xsd">
 ```
 
 <a name="codelists"></a>
@@ -1084,7 +1081,7 @@ Implement one bilingual metadata record per dataset.
 **Example:**
 
 ```xml
-<gmd:CI_RoleCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90"  codeListValue="RI_418">author; auteur</gmd:CI_RoleCode>
+<gmd:CI_RoleCode codeList="https://schemas.metadata.geo.ca/register/napMetadataRegister.xml#IC_90"  codeListValue="RI_418">author; auteur</gmd:CI_RoleCode>
 ```
 
 <a name="footnote1"><sup>1</sup></a>mandatory under given conditions ([back](#1))
