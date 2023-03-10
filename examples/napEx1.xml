@@ -10,7 +10,7 @@
                  xmlns:srv="http://www.isotc211.org/2005/srv"
                  xmlns:gml="http://www.opengis.net/gml"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../2009/gmd/gmd.xsd http://www.isotc211.org/2005/srv ../2009/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm ../2009/napm/napm.xsd">
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../2009/gmd/gmd.xsd  http://www.geconnections.org/nap/napMetadataTools/napXsd/napm ../2009/napm/napm.xsd http://www.isotc211.org/2005/gco ../2009/gco/gco.xsd http://www.isotc211.org/2005/gts ../2009/gts/gts.xsd http://www.isotc211.org/2005/gss ../2009/gss/gss.xsd http://www.isotc211.org/2005/gsr ../2009/gsr/gsr.xsd http://www.w3.org/1999/xlink ../2009/xlink/xlink.xsd http://www.isotc211.org/2005/srv ../2009/srv/srv.xsd http://www.opengis.net/gml ../ogc/gml/3.2.1/gml.xsd">
     <gmd:fileIdentifier>
         <gco:CharacterString>40ffba40-e192-4cbd-9fdc-89bd664e136b</gco:CharacterString>
     </gmd:fileIdentifier>
