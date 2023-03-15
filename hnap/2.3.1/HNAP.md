@@ -114,7 +114,7 @@ Markdown converstion:
 
 [2. Purpose]()
 
-[3. Proposed Implementation to the Minimum Mandatory Metadata Elements – NAP](#harmonized-minimum-mandatory-metadata-elements-north-american-profile-hnap)
+[3. Harmonized Minimum Mandatory Metadata Elements – North American Profile (HNAP)](#harmonized-minimum-mandatory-metadata-elements-north-american-profile-hnap)
 
 [4. Additional Guidelines](#additional-guidelines)
 
