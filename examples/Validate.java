@@ -35,15 +35,26 @@ import org.xml.sax.SAXParseException;
  * @see https://www.digitalocean.com/community/tutorials/how-to-validate-xml-against-xsd-in-java
  */
 public class Validate {
+
+    public static boolean TRACE = false;
+
     public static void main(String args[]){
         if (args.length<1) {
             System.out.println("Usage:");
             System.out.println("  java Validate.java file.xml");
             System.out.println("  java Validate.java file.xsd file.xml");
+            System.out.println();
+            System.out.println("options:");
+            System.out.println("  --trace Trace reference lookup and access");
             return;
         }
+
         File xsd = null;
         for(String path : args ){
+            if(path.equals("--trace")){
+                TRACE = true;
+                continue;
+            }
             if(path.endsWith(".xsd")){
                 xsd = new File(path);
                 continue;
@@ -79,13 +90,15 @@ public class Validate {
         factory.setNamespaceAware(true);
 
         // https://xerces.apache.org/xerces2-j/features.html
-        factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING,false);
+        // factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING,true);
         factory.setFeature("http://apache.org/xml/features/validation/schema", true);
-        factory.setFeature("http://apache.org/xml/features/validation/schema-full-checking", true);
+
 
         SAXParser parser = factory.newSAXParser();
         parser.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA,"all");
+
         Feedback feedback = new Feedback();
+        if (TRACE) feedback.trace=true;
         parser.parse(file, feedback);
 
         return feedback.valid;
@@ -95,6 +108,8 @@ public class Validate {
         Schema schema = factory.newSchema(xsd);
 
         Feedback feedback = new Feedback();
+        if (TRACE) feedback.trace=true;
+
         Validator validator = schema.newValidator();
         validator.setErrorHandler(feedback);
         validator.validate(new StreamSource(file));
@@ -104,33 +119,37 @@ public class Validate {
 
     public static class Feedback extends DefaultHandler {
         public boolean valid = true;
+        public boolean trace = false;
 
         @Override
         public void notationDecl(String name, String publicId, String systemId) throws SAXException {
-//            if (publicId!=null){
-//                System.out.println(name+": "+systemId + " --> "+ publicId);
-//            }
-//            else {
-//                System.out.println(name+": "+systemId);
-//            }
+            if (trace) {
+                if (publicId != null) {
+                    System.out.println(name + ": " + systemId + " --> " + publicId);
+                } else {
+                    System.out.println(name + ": " + systemId);
+                }
+            }
             super.notationDecl(name, publicId, systemId);
         }
 
         @Override
         public void unparsedEntityDecl(String name, String publicId, String systemId, String notationName) throws SAXException {
-//            System.out.println(name+" unparsed entity declaration:"+notationName);
-
+            if (trace) {
+                System.out.println(name + " unparsed entity declaration:" + notationName);
+            }
             super.unparsedEntityDecl(name, publicId, systemId, notationName);
         }
 
         @Override
         public InputSource resolveEntity(String publicId, String systemId) throws IOException, SAXException {
-//            if (publicId!=null){
-//                System.out.println(systemId + " --> "+ publicId);
-//            }
-//            else {
-//                System.out.println(systemId);
-//            }
+            if (trace) {
+                if (publicId != null) {
+                    System.out.println(systemId + " --> " + publicId);
+                } else {
+                    System.out.println(systemId);
+                }
+            }
             return super.resolveEntity(publicId, systemId);
         }
 
