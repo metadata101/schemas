@@ -12,7 +12,8 @@
 	</xs:annotation>
 	<!-- ================================== Imports ================================== -->
 	<xs:import namespace="http://www.isotc211.org/2005/gco" schemaLocation="../gco/gco.xsd"/>
-	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="../xlink/xlink.xsd"/>
+
 	<xs:include schemaLocation="gmx.xsd"/>
 	<!-- ########################################################################### -->
 	<!-- ########################################################################### -->
@@ -65,7 +66,7 @@
 	<xs:complexType name="Anchor_Type">
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
-				<xs:attributeGroup ref="xlink:simpleLink"/>
+				<xs:attributeGroup ref="xlink:simpleAttrs"/>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>

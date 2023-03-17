@@ -16,6 +16,8 @@ http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/
 
 2023-01-07 Jody Garnett
     * geogratis migration changing schema locations and register folder structure
+    * Adoption of W3C Implementation of XLink:
+       - Anchor_Type xlink:simpleLink renamed xlink:simpleAttrs
 
 2013-02-22
     * This has been addapted for NAP - Metadata

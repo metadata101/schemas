@@ -8,7 +8,7 @@
    xmlns:gsr="http://www.isotc211.org/2005/gsr"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:srv="http://www.isotc211.org/2005/srv"
-   xmlns:gml="http://www.opengis.net/gml"
+   xmlns:gml="http://www.opengis.net/gml/3.2"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../2009/gmd/gmd.xsd http://www.isotc211.org/2005/srv ../2009/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm ../2009/napm/napm.xsd">
    <gmd:fileIdentifier>

@@ -50,7 +50,6 @@ nav_exclude: true
   * Dec 23, 2014
     * Cindy Mitchell
     * All references to Esri REST Feature Service changed to Esri REST Mapping Service.
-
 * 2.3
   * February 23, 2015
     * M-E Martin (NRCan), R. Tondevold (AAFC) Tondevold, Mark Smith (EC), J. Rupert (NRCan)
