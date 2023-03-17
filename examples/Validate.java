@@ -17,6 +17,9 @@ import javax.xml.validation.Validator;
 import javax.xml.XMLConstants;
 
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -148,12 +151,16 @@ public class Validate {
             valid = false;
         }
         private void feedback(String level, SAXParseException exception) throws SAXException {
-            System.err.print(level);
-            System.err.print(":(");
+            String path = exception.getSystemId();
+            path = path.substring(path.lastIndexOf("/")+1);
+            System.err.print(path);
+            System.err.print(" (");
             System.err.print(exception.getLineNumber());
             System.err.print(", ");
             System.err.print(exception.getColumnNumber());
             System.err.print(") ");
+            System.err.print(level);
+            System.err.print(": ");
             System.err.println(exception.getMessage());
         }
     }
